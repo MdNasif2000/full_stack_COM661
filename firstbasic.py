@@ -17,3 +17,4 @@ def future_age(years: int):
     print(f"\nAfter {years} year/years you will be {years + age}")
 
 future_age(20)
+future_age(30)
