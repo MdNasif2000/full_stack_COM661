@@ -6,7 +6,7 @@ def url_builder(lat , lon):
     api = "4dfba26b744104c08dcd02c449cd4fa4"
     unit = "metric"
     
-    return 'http://api.openweathermap.org/data/2.5/weather?' + \
+    return 'https://api.openweathermap.org/data/2.5/weather?' + \
                 'unit=' + unit + \
                 '&APPID=' + api + \
                 '&lat=' + str(lat) + \
@@ -35,5 +35,5 @@ description = jason_data['weather'][0]['description']
 
 print(jason_data)
 print('\n Current Weather Temparature and Description \n')
-print(timestamp + " - " + temperature + "° : " + \
+print(timestamp + " -- " + temperature + "° : " + \
         description)

@@ -1,1 +1,1 @@
-/api/v1.0/businesses/<int:biz_id>
+rev_id
