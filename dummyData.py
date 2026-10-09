@@ -16,17 +16,19 @@ def generate_data():
         town = random.choice(towns)
         rating = random.randint(1,5)
         reviews =[]
+        review_id_counter = 1
         for _ in range(random.randint(2,3)):
             username = random.choice(usernames)
             comment = random.choice(reviews_text)
             stars = random.randint(1,5)
-            
             reviews.append(
                 {
+                    "id":review_id_counter ,
                     "username" : username,
                     "comment" : comment,
                     "stars": stars,
-                }),
+                })
+            review_id_counter += 1
         business_list.append({
             "name": name,
             "town": town,

@@ -141,7 +141,7 @@ def add_new_review(biz_id):
             break
         
     return make_response(jsonify(new_review),200)
-#getting the review by id by ID by GET
+#getting the review by ID by GET method
 @app.route("/api/v1.0/businesses/<int:biz_id>/reviews/<int:rev_id>",methods=['GET'])
 def get_one_review(biz_id , rev_id):
     for business in businesses:
@@ -160,16 +160,16 @@ def update_review(biz_id , rev_id):
         if business['id'] == biz_id:
             for review in business["reviews"]:
                 if review["id"] == rev_id :
-                    review["username"] = request.form["username"],
-                    review["comment"] = request.form["comment"],
-                    review["stars"] = request.form["stars"],
+                    review["username"] = request.form["username"]
+                    review["comment"] = request.form["comment"]
+                    review["stars"] = request.form["stars"]
                     break
             break
         
     return make_response(jsonify(review),200)
 
 @app.route("/api/v1.0/businesses/<int:biz_id>/reviews/<int:rev_id>",methods=['DELETE'])
-def update_review(biz_id , rev_id):
+def delete_review(biz_id , rev_id):
     for business in businesses:
         if business['id'] == biz_id:
             for review in business["reviews"]:
@@ -178,7 +178,7 @@ def update_review(biz_id , rev_id):
                     break
             break
         
-    return make_response(jsonify("Message":"Review deleted successfully !"),200)
+    return make_response(jsonify({"Message":"Review deleted successfully !"}),200)
     
 if __name__ == "__main__":
     app.run(debug=True)
