@@ -1,44 +1,52 @@
 from flask import Flask, make_response,jsonify, request
+from pymongo import MongoClient
+from bson import ObjectId
 app = Flask(__name__)
 
-businesses =[
-    {
-        "id" : 1,
-        "name" : "Costa",
-        "town" : "London",
-        "rating" : 4,
-        "reviews" :[
-            {
-                "id": 1 ,
-                "username" :"Nasif",
-                "comment" : "Not Bad!",
-                "stars": 4,
-            }
-        ]
-    },
-    {
-        "id" : 2,
-        "name" : "Black-Sheep",
-        "town" : "London",
-        "rating" : 4,
-        "reviews" :[]
-    },
-    {
-        "id" : 3,
-        "name" : "Nero",
-        "town" : "London",
-        "rating" : 4,
-        "reviews" :[]
-    },
-    {
-        "id" : 3,
-        "name" : "Nero",
-        "town" : "London",
-        "rating" : 4,
-        "reviews" :[]
-    },
+#Mongo connection
+
+client = MongoClient("mongodb://localhost:27017")
+db = client.bizDB
+businesses = db.biz
+
+# businesses =[
+#     {
+#         "id" : 1,
+#         "name" : "Costa",
+#         "town" : "London",
+#         "rating" : 4,
+#         "reviews" :[
+#             {
+#                 "id": 1 ,
+#                 "username" :"Nasif",
+#                 "comment" : "Not Bad!",
+#                 "stars": 4,
+#             }
+#         ]
+#     },
+#     {
+#         "id" : 2,
+#         "name" : "Black-Sheep",
+#         "town" : "London",
+#         "rating" : 4,
+#         "reviews" :[]
+#     },
+#     {
+#         "id" : 3,
+#         "name" : "Nero",
+#         "town" : "London",
+#         "rating" : 4,
+#         "reviews" :[]
+#     },
+#     {
+#         "id" : 3,
+#         "name" : "Nero",
+#         "town" : "London",
+#         "rating" : 4,
+#         "reviews" :[]
+#     },
     
-]
+# ]
 
 #Route for welcoming 
 @app.route("/", methods = ["GET"])
@@ -48,7 +56,24 @@ def index():
 #route to get the json data
 @app.route("/api/v1.0/businesses", methods = ["GET"])
 def show_all_businesses():
-    return make_response(jsonify(businesses),200)
+    page_num , page_size = 1, 10
+    if request.args.get('pn'):
+        page_num = int(request.args.get('pn'))
+
+    if request.args.get('ps'):
+        page_size = int(request.args.get('ps'))
+        
+    page_start = (page_size* (page_num - 1))
+    
+    data_to_return = []
+    
+    for business in businesses.find().skip(page_start).limit(page_size):
+            business['_id'] = str(business['_id'])
+            for review in business['reviews']:
+                review['id'] = str(review['id'])
+                
+            data_to_return.append(business)
+    return make_response(jsonify(data_to_return),200)
 
 #fetch data by ID
 @app.route("/api/v1.0/businesses/<int:biz_id>", methods = ["GET"])
@@ -153,7 +178,7 @@ def get_one_review(biz_id , rev_id):
         
     return make_response(jsonify(review),200)
 
-
+#route to update review by its ID
 @app.route("/api/v1.0/businesses/<int:biz_id>/reviews/<int:rev_id>",methods=['PUT'])
 def update_review(biz_id , rev_id):
     for business in businesses:
@@ -167,7 +192,7 @@ def update_review(biz_id , rev_id):
             break
         
     return make_response(jsonify(review),200)
-
+#route to delete the review by its ID
 @app.route("/api/v1.0/businesses/<int:biz_id>/reviews/<int:rev_id>",methods=['DELETE'])
 def delete_review(biz_id , rev_id):
     for business in businesses:

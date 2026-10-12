@@ -1,6 +1,6 @@
 import random , json
 
-def generate_data():
+def generate_data(num):
     towns = ['London','Liverpool', 'Camden', 'Ilford','Manchester','Richmond','Portsmouth', 'Worthing',
              'Belfast','Tower Hill']
     
@@ -11,33 +11,33 @@ def generate_data():
     
     business_list =[]
     
-    for i in range(100):
-        name = "Biz" + str(i)
-        town = random.choice(towns)
-        rating = random.randint(1,5)
+    for i in range(1,num + 1):
+        # name = "Biz" + str(i)
+        # town = random.choice(towns)
+        #rating = random.randint(1,5)
         reviews =[]
         review_id_counter = 1
         for _ in range(random.randint(2,3)):
-            username = random.choice(usernames)
-            comment = random.choice(reviews_text)
-            stars = random.randint(1,5)
+            #username = random.choice(usernames)
+            #comment = random.choice(reviews_text)
+            #stars = random.randint(1,5)
             reviews.append(
                 {
                     "id":review_id_counter ,
-                    "username" : username,
-                    "comment" : comment,
-                    "stars": stars,
+                    "username" : random.choice(usernames),
+                    "comment" : random.choice(reviews_text),
+                    "stars": random.randint(1,5),
                 })
             review_id_counter += 1
         business_list.append({
-            "name": name,
-            "town": town,
-            "rating": rating,
+            "name": "Biz" + str(i),
+            "town": random.choice(towns),
+            "rating": random.randint(1,5),
             "reviews": reviews,
         })
     return business_list
             
-businesses = generate_data()
+businesses = generate_data(100)
 
 with open("data.json","w") as fout:
     json.dump(businesses, fout , indent=4)
