@@ -1,0 +1,302 @@
+[
+  {
+    "leave_id": "LEV0001",
+    "employee_id": "EMP0080",
+    "leave_type": "Personal Leave",
+    "period": {
+      "start_date": "2026-08-05",
+      "end_date": "2026-08-06"
+    },
+    "reason": "Personal reasons",
+    "status": "Pending",
+    "requested_at": "2026-07-20T14:00:00"
+  },
+  {
+    "leave_id": "LEV0002",
+    "employee_id": "EMP0073",
+    "leave_type": "Sick Leave",
+    "period": {
+      "start_date": "2026-09-12",
+      "end_date": "2026-09-15"
+    },
+    "reason": "Medical appointment",
+    "status": "Pending",
+    "requested_at": "2026-08-17T09:00:00"
+  },
+  {
+    "leave_id": "LEV0003",
+    "employee_id": "EMP0049",
+    "leave_type": "Unpaid Leave",
+    "period": {
+      "start_date": "2026-08-07",
+      "end_date": "2026-08-10"
+    },
+    "reason": "Family holiday",
+    "status": "Approved",
+    "requested_at": "2026-07-12T10:00:00"
+  },
+  {
+    "leave_id": "LEV0004",
+    "employee_id": "EMP0083",
+    "leave_type": "Personal Leave",
+    "period": {
+      "start_date": "2026-10-27",
+      "end_date": "2026-10-30"
+    },
+    "reason": "Rest and recovery",
+    "status": "Rejected",
+    "requested_at": "2026-09-02T09:00:00"
+  },
+  {
+    "leave_id": "LEV0005",
+    "employee_id": "EMP0061",
+    "leave_type": "Personal Leave",
+    "period": {
+      "start_date": "2026-08-13",
+      "end_date": "2026-08-17"
+    },
+    "reason": "Family holiday",
+    "status": "Rejected",
+    "requested_at": "2026-07-30T12:00:00"
+  },
+  {
+    "leave_id": "LEV0006",
+    "employee_id": "EMP0003",
+    "leave_type": "Sick Leave",
+    "period": {
+      "start_date": "2026-09-21",
+      "end_date": "2026-09-23"
+    },
+    "reason": "Rest and recovery",
+    "status": "Pending",
+    "requested_at": "2026-07-23T14:00:00"
+  },
+  {
+    "leave_id": "LEV0007",
+    "employee_id": "EMP0031",
+    "leave_type": "Unpaid Leave",
+    "period": {
+      "start_date": "2026-08-19",
+      "end_date": "2026-08-23"
+    },
+    "reason": "Rest and recovery",
+    "status": "Pending",
+    "requested_at": "2026-08-08T10:00:00"
+  },
+  {
+    "leave_id": "LEV0008",
+    "employee_id": "EMP0007",
+    "leave_type": "Annual Leave",
+    "period": {
+      "start_date": "2026-10-21",
+      "end_date": "2026-10-23"
+    },
+    "reason": "Family commitment",
+    "status": "Pending",
+    "requested_at": "2026-09-03T09:30:00"
+  },
+  {
+    "leave_id": "LEV0009",
+    "employee_id": "EMP0077",
+    "leave_type": "Unpaid Leave",
+    "period": {
+      "start_date": "2026-11-05",
+      "end_date": "2026-11-09"
+    },
+    "reason": "Personal reasons",
+    "status": "Pending",
+    "requested_at": "2026-09-16T12:45:00"
+  },
+  {
+    "leave_id": "LEV0010",
+    "employee_id": "EMP0071",
+    "leave_type": "Unpaid Leave",
+    "period": {
+      "start_date": "2026-09-16",
+      "end_date": "2026-09-18"
+    },
+    "reason": "Family commitment",
+    "status": "Pending",
+    "requested_at": "2026-09-01T17:45:00"
+  },
+  {
+    "leave_id": "LEV0011",
+    "employee_id": "EMP0038",
+    "leave_type": "Sick Leave",
+    "period": {
+      "start_date": "2026-08-30",
+      "end_date": "2026-09-03"
+    },
+    "reason": "Family holiday",
+    "status": "Pending",
+    "requested_at": "2026-07-11T10:45:00"
+  },
+  {
+    "leave_id": "LEV0012",
+    "employee_id": "EMP0095",
+    "leave_type": "Unpaid Leave",
+    "period": {
+      "start_date": "2026-11-20",
+      "end_date": "2026-11-21"
+    },
+    "reason": "Personal reasons",
+    "status": "Approved",
+    "requested_at": "2026-09-30T09:00:00"
+  },
+  {
+    "leave_id": "LEV0013",
+    "employee_id": "EMP0098",
+    "leave_type": "Personal Leave",
+    "period": {
+      "start_date": "2026-09-07",
+      "end_date": "2026-09-09"
+    },
+    "reason": "Family holiday",
+    "status": "Pending",
+    "requested_at": "2026-08-09T10:45:00"
+  },
+  {
+    "leave_id": "LEV0014",
+    "employee_id": "EMP0066",
+    "leave_type": "Unpaid Leave",
+    "period": {
+      "start_date": "2026-10-02",
+      "end_date": "2026-10-06"
+    },
+    "reason": "Family holiday",
+    "status": "Pending",
+    "requested_at": "2026-08-27T13:00:00"
+  },
+  {
+    "leave_id": "LEV0015",
+    "employee_id": "EMP0050",
+    "leave_type": "Annual Leave",
+    "period": {
+      "start_date": "2026-10-24",
+      "end_date": "2026-10-26"
+    },
+    "reason": "Personal reasons",
+    "status": "Approved",
+    "requested_at": "2026-09-15T09:15:00"
+  },
+  {
+    "leave_id": "LEV0016",
+    "employee_id": "EMP0088",
+    "leave_type": "Unpaid Leave",
+    "period": {
+      "start_date": "2026-10-16",
+      "end_date": "2026-10-17"
+    },
+    "reason": "Medical appointment",
+    "status": "Pending",
+    "requested_at": "2026-09-12T12:30:00"
+  },
+  {
+    "leave_id": "LEV0017",
+    "employee_id": "EMP0022",
+    "leave_type": "Unpaid Leave",
+    "period": {
+      "start_date": "2026-09-12",
+      "end_date": "2026-09-12"
+    },
+    "reason": "Personal reasons",
+    "status": "Approved",
+    "requested_at": "2026-09-02T15:00:00"
+  },
+  {
+    "leave_id": "LEV0018",
+    "employee_id": "EMP0093",
+    "leave_type": "Unpaid Leave",
+    "period": {
+      "start_date": "2026-09-02",
+      "end_date": "2026-09-03"
+    },
+    "reason": "Rest and recovery",
+    "status": "Approved",
+    "requested_at": "2026-08-16T15:00:00"
+  },
+  {
+    "leave_id": "LEV0019",
+    "employee_id": "EMP0051",
+    "leave_type": "Personal Leave",
+    "period": {
+      "start_date": "2026-08-07",
+      "end_date": "2026-08-07"
+    },
+    "reason": "Rest and recovery",
+    "status": "Approved",
+    "requested_at": "2026-07-18T13:45:00"
+  },
+  {
+    "leave_id": "LEV0020",
+    "employee_id": "EMP0018",
+    "leave_type": "Personal Leave",
+    "period": {
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-13"
+    },
+    "reason": "Personal reasons",
+    "status": "Approved",
+    "requested_at": "2026-08-12T11:45:00"
+  },
+  {
+    "leave_id": "LEV0021",
+    "employee_id": "EMP0041",
+    "leave_type": "Personal Leave",
+    "period": {
+      "start_date": "2026-08-22",
+      "end_date": "2026-08-25"
+    },
+    "reason": "Family commitment",
+    "status": "Rejected",
+    "requested_at": "2026-08-10T11:30:00"
+  },
+  {
+    "leave_id": "LEV0022",
+    "employee_id": "EMP0047",
+    "leave_type": "Annual Leave",
+    "period": {
+      "start_date": "2026-09-05",
+      "end_date": "2026-09-08"
+    },
+    "reason": "Rest and recovery",
+    "status": "Pending",
+    "requested_at": "2026-08-18T16:15:00"
+  },
+  {
+    "leave_id": "LEV0023",
+    "employee_id": "EMP0004",
+    "leave_type": "Unpaid Leave",
+    "period": {
+      "start_date": "2026-11-15",
+      "end_date": "2026-11-19"
+    },
+    "reason": "Medical appointment",
+    "status": "Approved",
+    "requested_at": "2026-09-26T12:00:00"
+  },
+  {
+    "leave_id": "LEV0024",
+    "employee_id": "EMP0087",
+    "leave_type": "Unpaid Leave",
+    "period": {
+      "start_date": "2026-12-07",
+      "end_date": "2026-12-10"
+    },
+    "reason": "Medical appointment",
+    "status": "Approved",
+    "requested_at": "2026-10-13T11:30:00"
+  },
+  {
+    "leave_id": "LEV0025",
+    "employee_id": "EMP0049",
+    "leave_type": "Annual Leave",
+    "period": {
+      "start_date": "2026-10-03",
+      "end_date": "2026-10-06"
+    },
+    "reason": "Family commitment",
+    "status": "Rejected",
+    "requested_at": "2026-09-23T15:45:00"
+  }
+]

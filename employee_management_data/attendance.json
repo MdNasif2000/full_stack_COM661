@@ -1,0 +1,1202 @@
+[
+  {
+    "attendance_id": "ATT0001",
+    "employee_id": "EMP0018",
+    "date": "2026-09-21",
+    "status": "Present",
+    "check_in": "08:40",
+    "check_out": "18:50"
+  },
+  {
+    "attendance_id": "ATT0002",
+    "employee_id": "EMP0068",
+    "date": "2026-10-12",
+    "status": "Present",
+    "check_in": "08:45",
+    "check_out": "17:10"
+  },
+  {
+    "attendance_id": "ATT0003",
+    "employee_id": "EMP0021",
+    "date": "2026-09-15",
+    "status": "Late",
+    "check_in": "08:55",
+    "check_out": "17:00"
+  },
+  {
+    "attendance_id": "ATT0004",
+    "employee_id": "EMP0053",
+    "date": "2026-08-13",
+    "status": "Present",
+    "check_in": "08:35",
+    "check_out": "18:20"
+  },
+  {
+    "attendance_id": "ATT0005",
+    "employee_id": "EMP0097",
+    "date": "2026-07-29",
+    "status": "Present",
+    "check_in": "08:20",
+    "check_out": "17:10"
+  },
+  {
+    "attendance_id": "ATT0006",
+    "employee_id": "EMP0048",
+    "date": "2026-07-30",
+    "status": "Present",
+    "check_in": "08:30",
+    "check_out": "18:40"
+  },
+  {
+    "attendance_id": "ATT0007",
+    "employee_id": "EMP0054",
+    "date": "2026-09-18",
+    "status": "Present",
+    "check_in": "08:20",
+    "check_out": "16:50"
+  },
+  {
+    "attendance_id": "ATT0008",
+    "employee_id": "EMP0062",
+    "date": "2026-08-12",
+    "status": "Present",
+    "check_in": "08:55",
+    "check_out": "18:00"
+  },
+  {
+    "attendance_id": "ATT0009",
+    "employee_id": "EMP0037",
+    "date": "2026-10-02",
+    "status": "Present",
+    "check_in": "08:35",
+    "check_out": "18:10"
+  },
+  {
+    "attendance_id": "ATT0010",
+    "employee_id": "EMP0056",
+    "date": "2026-10-01",
+    "status": "Absent",
+    "check_in": null,
+    "check_out": null
+  },
+  {
+    "attendance_id": "ATT0011",
+    "employee_id": "EMP0029",
+    "date": "2026-07-29",
+    "status": "Late",
+    "check_in": "08:30",
+    "check_out": "16:30"
+  },
+  {
+    "attendance_id": "ATT0012",
+    "employee_id": "EMP0065",
+    "date": "2026-08-12",
+    "status": "Present",
+    "check_in": "08:25",
+    "check_out": "16:00"
+  },
+  {
+    "attendance_id": "ATT0013",
+    "employee_id": "EMP0041",
+    "date": "2026-09-30",
+    "status": "Late",
+    "check_in": "09:10",
+    "check_out": "16:00"
+  },
+  {
+    "attendance_id": "ATT0014",
+    "employee_id": "EMP0037",
+    "date": "2026-07-24",
+    "status": "Present",
+    "check_in": "08:55",
+    "check_out": "17:30"
+  },
+  {
+    "attendance_id": "ATT0015",
+    "employee_id": "EMP0079",
+    "date": "2026-10-16",
+    "status": "Late",
+    "check_in": "08:20",
+    "check_out": "16:10"
+  },
+  {
+    "attendance_id": "ATT0016",
+    "employee_id": "EMP0071",
+    "date": "2026-08-03",
+    "status": "Present",
+    "check_in": "08:15",
+    "check_out": "17:00"
+  },
+  {
+    "attendance_id": "ATT0017",
+    "employee_id": "EMP0007",
+    "date": "2026-09-04",
+    "status": "Present",
+    "check_in": "09:05",
+    "check_out": "16:30"
+  },
+  {
+    "attendance_id": "ATT0018",
+    "employee_id": "EMP0077",
+    "date": "2026-10-14",
+    "status": "Present",
+    "check_in": "08:55",
+    "check_out": "16:20"
+  },
+  {
+    "attendance_id": "ATT0019",
+    "employee_id": "EMP0055",
+    "date": "2026-10-16",
+    "status": "Present",
+    "check_in": "08:45",
+    "check_out": "17:10"
+  },
+  {
+    "attendance_id": "ATT0020",
+    "employee_id": "EMP0086",
+    "date": "2026-10-02",
+    "status": "Present",
+    "check_in": "08:05",
+    "check_out": "18:40"
+  },
+  {
+    "attendance_id": "ATT0021",
+    "employee_id": "EMP0065",
+    "date": "2026-07-20",
+    "status": "Present",
+    "check_in": "09:35",
+    "check_out": "16:50"
+  },
+  {
+    "attendance_id": "ATT0022",
+    "employee_id": "EMP0050",
+    "date": "2026-08-12",
+    "status": "Present",
+    "check_in": "08:25",
+    "check_out": "16:20"
+  },
+  {
+    "attendance_id": "ATT0023",
+    "employee_id": "EMP0031",
+    "date": "2026-09-29",
+    "status": "Present",
+    "check_in": "08:10",
+    "check_out": "16:20"
+  },
+  {
+    "attendance_id": "ATT0024",
+    "employee_id": "EMP0070",
+    "date": "2026-08-18",
+    "status": "Present",
+    "check_in": "08:50",
+    "check_out": "17:50"
+  },
+  {
+    "attendance_id": "ATT0025",
+    "employee_id": "EMP0062",
+    "date": "2026-09-15",
+    "status": "Present",
+    "check_in": "08:55",
+    "check_out": "17:00"
+  },
+  {
+    "attendance_id": "ATT0026",
+    "employee_id": "EMP0038",
+    "date": "2026-09-11",
+    "status": "Present",
+    "check_in": "08:00",
+    "check_out": "17:20"
+  },
+  {
+    "attendance_id": "ATT0027",
+    "employee_id": "EMP0066",
+    "date": "2026-08-07",
+    "status": "Absent",
+    "check_in": null,
+    "check_out": null
+  },
+  {
+    "attendance_id": "ATT0028",
+    "employee_id": "EMP0070",
+    "date": "2026-07-24",
+    "status": "Present",
+    "check_in": "08:20",
+    "check_out": "17:00"
+  },
+  {
+    "attendance_id": "ATT0029",
+    "employee_id": "EMP0084",
+    "date": "2026-08-19",
+    "status": "Present",
+    "check_in": "08:30",
+    "check_out": "17:50"
+  },
+  {
+    "attendance_id": "ATT0030",
+    "employee_id": "EMP0057",
+    "date": "2026-08-10",
+    "status": "Present",
+    "check_in": "08:35",
+    "check_out": "18:30"
+  },
+  {
+    "attendance_id": "ATT0031",
+    "employee_id": "EMP0048",
+    "date": "2026-08-31",
+    "status": "Present",
+    "check_in": "09:05",
+    "check_out": "17:40"
+  },
+  {
+    "attendance_id": "ATT0032",
+    "employee_id": "EMP0024",
+    "date": "2026-08-26",
+    "status": "Present",
+    "check_in": "08:25",
+    "check_out": "18:20"
+  },
+  {
+    "attendance_id": "ATT0033",
+    "employee_id": "EMP0040",
+    "date": "2026-07-29",
+    "status": "Present",
+    "check_in": "09:10",
+    "check_out": "18:30"
+  },
+  {
+    "attendance_id": "ATT0034",
+    "employee_id": "EMP0045",
+    "date": "2026-07-29",
+    "status": "Present",
+    "check_in": "08:45",
+    "check_out": "17:20"
+  },
+  {
+    "attendance_id": "ATT0035",
+    "employee_id": "EMP0082",
+    "date": "2026-10-07",
+    "status": "Present",
+    "check_in": "09:25",
+    "check_out": "18:50"
+  },
+  {
+    "attendance_id": "ATT0036",
+    "employee_id": "EMP0087",
+    "date": "2026-09-18",
+    "status": "Absent",
+    "check_in": null,
+    "check_out": null
+  },
+  {
+    "attendance_id": "ATT0037",
+    "employee_id": "EMP0019",
+    "date": "2026-07-30",
+    "status": "Present",
+    "check_in": "08:15",
+    "check_out": "18:20"
+  },
+  {
+    "attendance_id": "ATT0038",
+    "employee_id": "EMP0047",
+    "date": "2026-08-10",
+    "status": "Absent",
+    "check_in": null,
+    "check_out": null
+  },
+  {
+    "attendance_id": "ATT0039",
+    "employee_id": "EMP0005",
+    "date": "2026-09-21",
+    "status": "Present",
+    "check_in": "08:25",
+    "check_out": "17:00"
+  },
+  {
+    "attendance_id": "ATT0040",
+    "employee_id": "EMP0074",
+    "date": "2026-09-23",
+    "status": "Present",
+    "check_in": "09:25",
+    "check_out": "18:20"
+  },
+  {
+    "attendance_id": "ATT0041",
+    "employee_id": "EMP0032",
+    "date": "2026-09-28",
+    "status": "Present",
+    "check_in": "08:35",
+    "check_out": "18:30"
+  },
+  {
+    "attendance_id": "ATT0042",
+    "employee_id": "EMP0072",
+    "date": "2026-09-25",
+    "status": "Present",
+    "check_in": "08:55",
+    "check_out": "17:10"
+  },
+  {
+    "attendance_id": "ATT0043",
+    "employee_id": "EMP0079",
+    "date": "2026-08-27",
+    "status": "Present",
+    "check_in": "09:15",
+    "check_out": "16:10"
+  },
+  {
+    "attendance_id": "ATT0044",
+    "employee_id": "EMP0010",
+    "date": "2026-07-29",
+    "status": "Present",
+    "check_in": "09:05",
+    "check_out": "18:20"
+  },
+  {
+    "attendance_id": "ATT0045",
+    "employee_id": "EMP0086",
+    "date": "2026-08-17",
+    "status": "Present",
+    "check_in": "08:20",
+    "check_out": "16:50"
+  },
+  {
+    "attendance_id": "ATT0046",
+    "employee_id": "EMP0091",
+    "date": "2026-09-16",
+    "status": "Present",
+    "check_in": "08:05",
+    "check_out": "16:10"
+  },
+  {
+    "attendance_id": "ATT0047",
+    "employee_id": "EMP0031",
+    "date": "2026-07-21",
+    "status": "Present",
+    "check_in": "08:35",
+    "check_out": "18:10"
+  },
+  {
+    "attendance_id": "ATT0048",
+    "employee_id": "EMP0079",
+    "date": "2026-10-01",
+    "status": "Present",
+    "check_in": "09:55",
+    "check_out": "18:30"
+  },
+  {
+    "attendance_id": "ATT0049",
+    "employee_id": "EMP0068",
+    "date": "2026-08-05",
+    "status": "Present",
+    "check_in": "08:10",
+    "check_out": "17:50"
+  },
+  {
+    "attendance_id": "ATT0050",
+    "employee_id": "EMP0060",
+    "date": "2026-08-17",
+    "status": "Present",
+    "check_in": "08:10",
+    "check_out": "17:40"
+  },
+  {
+    "attendance_id": "ATT0051",
+    "employee_id": "EMP0008",
+    "date": "2026-09-25",
+    "status": "Present",
+    "check_in": "08:10",
+    "check_out": "16:20"
+  },
+  {
+    "attendance_id": "ATT0052",
+    "employee_id": "EMP0091",
+    "date": "2026-09-08",
+    "status": "Present",
+    "check_in": "08:05",
+    "check_out": "17:10"
+  },
+  {
+    "attendance_id": "ATT0053",
+    "employee_id": "EMP0082",
+    "date": "2026-08-28",
+    "status": "Present",
+    "check_in": "08:45",
+    "check_out": "18:00"
+  },
+  {
+    "attendance_id": "ATT0054",
+    "employee_id": "EMP0065",
+    "date": "2026-09-17",
+    "status": "Present",
+    "check_in": "08:10",
+    "check_out": "18:40"
+  },
+  {
+    "attendance_id": "ATT0055",
+    "employee_id": "EMP0093",
+    "date": "2026-08-18",
+    "status": "Late",
+    "check_in": "08:00",
+    "check_out": "16:00"
+  },
+  {
+    "attendance_id": "ATT0056",
+    "employee_id": "EMP0083",
+    "date": "2026-09-01",
+    "status": "Present",
+    "check_in": "09:45",
+    "check_out": "18:00"
+  },
+  {
+    "attendance_id": "ATT0057",
+    "employee_id": "EMP0064",
+    "date": "2026-08-26",
+    "status": "Present",
+    "check_in": "08:35",
+    "check_out": "16:50"
+  },
+  {
+    "attendance_id": "ATT0058",
+    "employee_id": "EMP0052",
+    "date": "2026-08-25",
+    "status": "Present",
+    "check_in": "08:10",
+    "check_out": "17:30"
+  },
+  {
+    "attendance_id": "ATT0059",
+    "employee_id": "EMP0062",
+    "date": "2026-07-27",
+    "status": "Present",
+    "check_in": "08:25",
+    "check_out": "18:20"
+  },
+  {
+    "attendance_id": "ATT0060",
+    "employee_id": "EMP0094",
+    "date": "2026-08-17",
+    "status": "Absent",
+    "check_in": null,
+    "check_out": null
+  },
+  {
+    "attendance_id": "ATT0061",
+    "employee_id": "EMP0017",
+    "date": "2026-08-12",
+    "status": "Present",
+    "check_in": "08:25",
+    "check_out": "16:30"
+  },
+  {
+    "attendance_id": "ATT0062",
+    "employee_id": "EMP0016",
+    "date": "2026-08-31",
+    "status": "Present",
+    "check_in": "08:05",
+    "check_out": "16:20"
+  },
+  {
+    "attendance_id": "ATT0063",
+    "employee_id": "EMP0050",
+    "date": "2026-08-04",
+    "status": "Present",
+    "check_in": "08:25",
+    "check_out": "18:50"
+  },
+  {
+    "attendance_id": "ATT0064",
+    "employee_id": "EMP0041",
+    "date": "2026-09-14",
+    "status": "Present",
+    "check_in": "09:40",
+    "check_out": "17:30"
+  },
+  {
+    "attendance_id": "ATT0065",
+    "employee_id": "EMP0040",
+    "date": "2026-07-21",
+    "status": "Present",
+    "check_in": "09:40",
+    "check_out": "17:10"
+  },
+  {
+    "attendance_id": "ATT0066",
+    "employee_id": "EMP0028",
+    "date": "2026-08-14",
+    "status": "Present",
+    "check_in": "08:35",
+    "check_out": "18:50"
+  },
+  {
+    "attendance_id": "ATT0067",
+    "employee_id": "EMP0087",
+    "date": "2026-07-24",
+    "status": "Present",
+    "check_in": "08:05",
+    "check_out": "17:10"
+  },
+  {
+    "attendance_id": "ATT0068",
+    "employee_id": "EMP0034",
+    "date": "2026-08-13",
+    "status": "Present",
+    "check_in": "08:00",
+    "check_out": "17:00"
+  },
+  {
+    "attendance_id": "ATT0069",
+    "employee_id": "EMP0073",
+    "date": "2026-09-14",
+    "status": "Present",
+    "check_in": "08:05",
+    "check_out": "17:40"
+  },
+  {
+    "attendance_id": "ATT0070",
+    "employee_id": "EMP0058",
+    "date": "2026-08-28",
+    "status": "Late",
+    "check_in": "08:10",
+    "check_out": "16:30"
+  },
+  {
+    "attendance_id": "ATT0071",
+    "employee_id": "EMP0048",
+    "date": "2026-08-18",
+    "status": "Present",
+    "check_in": "08:10",
+    "check_out": "16:40"
+  },
+  {
+    "attendance_id": "ATT0072",
+    "employee_id": "EMP0066",
+    "date": "2026-08-06",
+    "status": "Present",
+    "check_in": "08:00",
+    "check_out": "16:50"
+  },
+  {
+    "attendance_id": "ATT0073",
+    "employee_id": "EMP0043",
+    "date": "2026-07-24",
+    "status": "Present",
+    "check_in": "08:45",
+    "check_out": "18:10"
+  },
+  {
+    "attendance_id": "ATT0074",
+    "employee_id": "EMP0042",
+    "date": "2026-08-21",
+    "status": "Present",
+    "check_in": "08:45",
+    "check_out": "17:40"
+  },
+  {
+    "attendance_id": "ATT0075",
+    "employee_id": "EMP0066",
+    "date": "2026-07-22",
+    "status": "Present",
+    "check_in": "08:35",
+    "check_out": "16:20"
+  },
+  {
+    "attendance_id": "ATT0076",
+    "employee_id": "EMP0043",
+    "date": "2026-09-28",
+    "status": "Absent",
+    "check_in": null,
+    "check_out": null
+  },
+  {
+    "attendance_id": "ATT0077",
+    "employee_id": "EMP0075",
+    "date": "2026-08-24",
+    "status": "Present",
+    "check_in": "08:45",
+    "check_out": "17:20"
+  },
+  {
+    "attendance_id": "ATT0078",
+    "employee_id": "EMP0084",
+    "date": "2026-09-07",
+    "status": "Present",
+    "check_in": "09:10",
+    "check_out": "18:50"
+  },
+  {
+    "attendance_id": "ATT0079",
+    "employee_id": "EMP0093",
+    "date": "2026-08-11",
+    "status": "Present",
+    "check_in": "08:00",
+    "check_out": "18:50"
+  },
+  {
+    "attendance_id": "ATT0080",
+    "employee_id": "EMP0015",
+    "date": "2026-09-14",
+    "status": "Present",
+    "check_in": "08:30",
+    "check_out": "16:30"
+  },
+  {
+    "attendance_id": "ATT0081",
+    "employee_id": "EMP0089",
+    "date": "2026-09-10",
+    "status": "Present",
+    "check_in": "09:55",
+    "check_out": "18:00"
+  },
+  {
+    "attendance_id": "ATT0082",
+    "employee_id": "EMP0091",
+    "date": "2026-09-23",
+    "status": "Present",
+    "check_in": "08:50",
+    "check_out": "17:40"
+  },
+  {
+    "attendance_id": "ATT0083",
+    "employee_id": "EMP0049",
+    "date": "2026-08-21",
+    "status": "Absent",
+    "check_in": null,
+    "check_out": null
+  },
+  {
+    "attendance_id": "ATT0084",
+    "employee_id": "EMP0059",
+    "date": "2026-08-18",
+    "status": "Present",
+    "check_in": "08:45",
+    "check_out": "17:10"
+  },
+  {
+    "attendance_id": "ATT0085",
+    "employee_id": "EMP0032",
+    "date": "2026-08-28",
+    "status": "Present",
+    "check_in": "08:20",
+    "check_out": "17:50"
+  },
+  {
+    "attendance_id": "ATT0086",
+    "employee_id": "EMP0027",
+    "date": "2026-07-22",
+    "status": "Present",
+    "check_in": "08:40",
+    "check_out": "18:20"
+  },
+  {
+    "attendance_id": "ATT0087",
+    "employee_id": "EMP0037",
+    "date": "2026-09-25",
+    "status": "Present",
+    "check_in": "09:30",
+    "check_out": "17:10"
+  },
+  {
+    "attendance_id": "ATT0088",
+    "employee_id": "EMP0038",
+    "date": "2026-10-09",
+    "status": "Present",
+    "check_in": "08:25",
+    "check_out": "17:50"
+  },
+  {
+    "attendance_id": "ATT0089",
+    "employee_id": "EMP0033",
+    "date": "2026-07-23",
+    "status": "Present",
+    "check_in": "08:40",
+    "check_out": "18:20"
+  },
+  {
+    "attendance_id": "ATT0090",
+    "employee_id": "EMP0018",
+    "date": "2026-09-29",
+    "status": "Present",
+    "check_in": "08:15",
+    "check_out": "16:50"
+  },
+  {
+    "attendance_id": "ATT0091",
+    "employee_id": "EMP0068",
+    "date": "2026-09-08",
+    "status": "Present",
+    "check_in": "08:05",
+    "check_out": "17:20"
+  },
+  {
+    "attendance_id": "ATT0092",
+    "employee_id": "EMP0092",
+    "date": "2026-07-24",
+    "status": "Present",
+    "check_in": "08:00",
+    "check_out": "18:10"
+  },
+  {
+    "attendance_id": "ATT0093",
+    "employee_id": "EMP0053",
+    "date": "2026-07-24",
+    "status": "Present",
+    "check_in": "08:20",
+    "check_out": "17:20"
+  },
+  {
+    "attendance_id": "ATT0094",
+    "employee_id": "EMP0083",
+    "date": "2026-10-07",
+    "status": "Late",
+    "check_in": "08:50",
+    "check_out": "18:10"
+  },
+  {
+    "attendance_id": "ATT0095",
+    "employee_id": "EMP0069",
+    "date": "2026-10-12",
+    "status": "Late",
+    "check_in": "08:30",
+    "check_out": "16:00"
+  },
+  {
+    "attendance_id": "ATT0096",
+    "employee_id": "EMP0051",
+    "date": "2026-07-21",
+    "status": "Present",
+    "check_in": "08:00",
+    "check_out": "16:20"
+  },
+  {
+    "attendance_id": "ATT0097",
+    "employee_id": "EMP0073",
+    "date": "2026-09-29",
+    "status": "Absent",
+    "check_in": null,
+    "check_out": null
+  },
+  {
+    "attendance_id": "ATT0098",
+    "employee_id": "EMP0043",
+    "date": "2026-08-27",
+    "status": "Present",
+    "check_in": "09:10",
+    "check_out": "18:30"
+  },
+  {
+    "attendance_id": "ATT0099",
+    "employee_id": "EMP0035",
+    "date": "2026-09-14",
+    "status": "Present",
+    "check_in": "08:10",
+    "check_out": "18:30"
+  },
+  {
+    "attendance_id": "ATT0100",
+    "employee_id": "EMP0083",
+    "date": "2026-09-02",
+    "status": "Present",
+    "check_in": "08:55",
+    "check_out": "17:20"
+  },
+  {
+    "attendance_id": "ATT0101",
+    "employee_id": "EMP0023",
+    "date": "2026-08-06",
+    "status": "Late",
+    "check_in": "09:05",
+    "check_out": "17:50"
+  },
+  {
+    "attendance_id": "ATT0102",
+    "employee_id": "EMP0013",
+    "date": "2026-09-15",
+    "status": "Absent",
+    "check_in": null,
+    "check_out": null
+  },
+  {
+    "attendance_id": "ATT0103",
+    "employee_id": "EMP0062",
+    "date": "2026-08-20",
+    "status": "Absent",
+    "check_in": null,
+    "check_out": null
+  },
+  {
+    "attendance_id": "ATT0104",
+    "employee_id": "EMP0001",
+    "date": "2026-09-01",
+    "status": "Present",
+    "check_in": "09:20",
+    "check_out": "17:20"
+  },
+  {
+    "attendance_id": "ATT0105",
+    "employee_id": "EMP0075",
+    "date": "2026-10-15",
+    "status": "Present",
+    "check_in": "08:55",
+    "check_out": "16:00"
+  },
+  {
+    "attendance_id": "ATT0106",
+    "employee_id": "EMP0086",
+    "date": "2026-09-25",
+    "status": "Present",
+    "check_in": "08:30",
+    "check_out": "18:40"
+  },
+  {
+    "attendance_id": "ATT0107",
+    "employee_id": "EMP0091",
+    "date": "2026-08-24",
+    "status": "Present",
+    "check_in": "08:25",
+    "check_out": "18:10"
+  },
+  {
+    "attendance_id": "ATT0108",
+    "employee_id": "EMP0029",
+    "date": "2026-09-23",
+    "status": "Present",
+    "check_in": "09:55",
+    "check_out": "18:20"
+  },
+  {
+    "attendance_id": "ATT0109",
+    "employee_id": "EMP0054",
+    "date": "2026-07-24",
+    "status": "Present",
+    "check_in": "08:15",
+    "check_out": "18:40"
+  },
+  {
+    "attendance_id": "ATT0110",
+    "employee_id": "EMP0011",
+    "date": "2026-07-29",
+    "status": "Present",
+    "check_in": "08:05",
+    "check_out": "18:00"
+  },
+  {
+    "attendance_id": "ATT0111",
+    "employee_id": "EMP0008",
+    "date": "2026-07-20",
+    "status": "Present",
+    "check_in": "08:10",
+    "check_out": "17:40"
+  },
+  {
+    "attendance_id": "ATT0112",
+    "employee_id": "EMP0057",
+    "date": "2026-09-28",
+    "status": "Present",
+    "check_in": "09:05",
+    "check_out": "18:30"
+  },
+  {
+    "attendance_id": "ATT0113",
+    "employee_id": "EMP0008",
+    "date": "2026-07-28",
+    "status": "Present",
+    "check_in": "09:35",
+    "check_out": "18:00"
+  },
+  {
+    "attendance_id": "ATT0114",
+    "employee_id": "EMP0072",
+    "date": "2026-07-27",
+    "status": "Present",
+    "check_in": "08:55",
+    "check_out": "16:30"
+  },
+  {
+    "attendance_id": "ATT0115",
+    "employee_id": "EMP0033",
+    "date": "2026-10-16",
+    "status": "Present",
+    "check_in": "08:00",
+    "check_out": "17:20"
+  },
+  {
+    "attendance_id": "ATT0116",
+    "employee_id": "EMP0090",
+    "date": "2026-10-06",
+    "status": "Present",
+    "check_in": "08:05",
+    "check_out": "17:00"
+  },
+  {
+    "attendance_id": "ATT0117",
+    "employee_id": "EMP0037",
+    "date": "2026-08-05",
+    "status": "Present",
+    "check_in": "08:50",
+    "check_out": "18:50"
+  },
+  {
+    "attendance_id": "ATT0118",
+    "employee_id": "EMP0054",
+    "date": "2026-08-12",
+    "status": "Absent",
+    "check_in": null,
+    "check_out": null
+  },
+  {
+    "attendance_id": "ATT0119",
+    "employee_id": "EMP0049",
+    "date": "2026-07-29",
+    "status": "Late",
+    "check_in": "09:30",
+    "check_out": "16:50"
+  },
+  {
+    "attendance_id": "ATT0120",
+    "employee_id": "EMP0085",
+    "date": "2026-09-23",
+    "status": "Present",
+    "check_in": "08:05",
+    "check_out": "16:40"
+  },
+  {
+    "attendance_id": "ATT0121",
+    "employee_id": "EMP0051",
+    "date": "2026-09-24",
+    "status": "Present",
+    "check_in": "08:00",
+    "check_out": "16:20"
+  },
+  {
+    "attendance_id": "ATT0122",
+    "employee_id": "EMP0060",
+    "date": "2026-08-03",
+    "status": "Present",
+    "check_in": "08:15",
+    "check_out": "17:20"
+  },
+  {
+    "attendance_id": "ATT0123",
+    "employee_id": "EMP0020",
+    "date": "2026-08-28",
+    "status": "Present",
+    "check_in": "08:00",
+    "check_out": "18:30"
+  },
+  {
+    "attendance_id": "ATT0124",
+    "employee_id": "EMP0079",
+    "date": "2026-10-14",
+    "status": "Present",
+    "check_in": "08:05",
+    "check_out": "18:00"
+  },
+  {
+    "attendance_id": "ATT0125",
+    "employee_id": "EMP0058",
+    "date": "2026-10-08",
+    "status": "Present",
+    "check_in": "08:30",
+    "check_out": "17:10"
+  },
+  {
+    "attendance_id": "ATT0126",
+    "employee_id": "EMP0070",
+    "date": "2026-09-09",
+    "status": "Present",
+    "check_in": "08:10",
+    "check_out": "18:20"
+  },
+  {
+    "attendance_id": "ATT0127",
+    "employee_id": "EMP0030",
+    "date": "2026-08-21",
+    "status": "Present",
+    "check_in": "08:15",
+    "check_out": "17:10"
+  },
+  {
+    "attendance_id": "ATT0128",
+    "employee_id": "EMP0085",
+    "date": "2026-09-08",
+    "status": "Present",
+    "check_in": "08:00",
+    "check_out": "18:40"
+  },
+  {
+    "attendance_id": "ATT0129",
+    "employee_id": "EMP0095",
+    "date": "2026-09-16",
+    "status": "Present",
+    "check_in": "09:40",
+    "check_out": "17:00"
+  },
+  {
+    "attendance_id": "ATT0130",
+    "employee_id": "EMP0045",
+    "date": "2026-08-11",
+    "status": "Present",
+    "check_in": "08:55",
+    "check_out": "17:30"
+  },
+  {
+    "attendance_id": "ATT0131",
+    "employee_id": "EMP0020",
+    "date": "2026-08-25",
+    "status": "Present",
+    "check_in": "09:15",
+    "check_out": "16:20"
+  },
+  {
+    "attendance_id": "ATT0132",
+    "employee_id": "EMP0091",
+    "date": "2026-09-22",
+    "status": "Present",
+    "check_in": "08:40",
+    "check_out": "17:30"
+  },
+  {
+    "attendance_id": "ATT0133",
+    "employee_id": "EMP0072",
+    "date": "2026-09-23",
+    "status": "Present",
+    "check_in": "08:15",
+    "check_out": "17:50"
+  },
+  {
+    "attendance_id": "ATT0134",
+    "employee_id": "EMP0048",
+    "date": "2026-10-01",
+    "status": "Present",
+    "check_in": "08:00",
+    "check_out": "17:30"
+  },
+  {
+    "attendance_id": "ATT0135",
+    "employee_id": "EMP0087",
+    "date": "2026-10-09",
+    "status": "Late",
+    "check_in": "08:45",
+    "check_out": "18:50"
+  },
+  {
+    "attendance_id": "ATT0136",
+    "employee_id": "EMP0072",
+    "date": "2026-09-09",
+    "status": "Present",
+    "check_in": "08:20",
+    "check_out": "16:10"
+  },
+  {
+    "attendance_id": "ATT0137",
+    "employee_id": "EMP0025",
+    "date": "2026-09-25",
+    "status": "Present",
+    "check_in": "09:15",
+    "check_out": "18:40"
+  },
+  {
+    "attendance_id": "ATT0138",
+    "employee_id": "EMP0091",
+    "date": "2026-09-10",
+    "status": "Present",
+    "check_in": "08:40",
+    "check_out": "17:20"
+  },
+  {
+    "attendance_id": "ATT0139",
+    "employee_id": "EMP0049",
+    "date": "2026-07-27",
+    "status": "Present",
+    "check_in": "08:20",
+    "check_out": "17:20"
+  },
+  {
+    "attendance_id": "ATT0140",
+    "employee_id": "EMP0066",
+    "date": "2026-07-21",
+    "status": "Present",
+    "check_in": "09:25",
+    "check_out": "16:20"
+  },
+  {
+    "attendance_id": "ATT0141",
+    "employee_id": "EMP0041",
+    "date": "2026-08-05",
+    "status": "Present",
+    "check_in": "08:55",
+    "check_out": "16:00"
+  },
+  {
+    "attendance_id": "ATT0142",
+    "employee_id": "EMP0034",
+    "date": "2026-08-04",
+    "status": "Present",
+    "check_in": "08:25",
+    "check_out": "16:30"
+  },
+  {
+    "attendance_id": "ATT0143",
+    "employee_id": "EMP0073",
+    "date": "2026-09-03",
+    "status": "Present",
+    "check_in": "08:20",
+    "check_out": "17:50"
+  },
+  {
+    "attendance_id": "ATT0144",
+    "employee_id": "EMP0083",
+    "date": "2026-07-22",
+    "status": "Present",
+    "check_in": "08:10",
+    "check_out": "16:50"
+  },
+  {
+    "attendance_id": "ATT0145",
+    "employee_id": "EMP0070",
+    "date": "2026-07-22",
+    "status": "Present",
+    "check_in": "08:40",
+    "check_out": "16:00"
+  },
+  {
+    "attendance_id": "ATT0146",
+    "employee_id": "EMP0086",
+    "date": "2026-10-08",
+    "status": "Present",
+    "check_in": "09:10",
+    "check_out": "18:10"
+  },
+  {
+    "attendance_id": "ATT0147",
+    "employee_id": "EMP0009",
+    "date": "2026-09-21",
+    "status": "Present",
+    "check_in": "09:25",
+    "check_out": "16:40"
+  },
+  {
+    "attendance_id": "ATT0148",
+    "employee_id": "EMP0082",
+    "date": "2026-07-23",
+    "status": "Present",
+    "check_in": "08:00",
+    "check_out": "18:40"
+  },
+  {
+    "attendance_id": "ATT0149",
+    "employee_id": "EMP0053",
+    "date": "2026-10-15",
+    "status": "Present",
+    "check_in": "08:40",
+    "check_out": "17:00"
+  },
+  {
+    "attendance_id": "ATT0150",
+    "employee_id": "EMP0065",
+    "date": "2026-07-31",
+    "status": "Present",
+    "check_in": "08:05",
+    "check_out": "16:40"
+  }
+]

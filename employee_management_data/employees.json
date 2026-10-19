@@ -1,0 +1,3198 @@
+[
+  {
+    "employee_id": "EMP0001",
+    "personal_details": {
+      "first_name": "Noah",
+      "last_name": "Smith",
+      "date_of_birth": "1995-05-11",
+      "contact": {
+        "email": "noah.smith.1@example.com",
+        "phone": "07895285932",
+        "address": {
+          "street": "140 Church Road",
+          "city": "London",
+          "postcode": "E1 6AN",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT001",
+    "role_id": "ROLE005",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2020-07-03",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 27000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0002",
+    "personal_details": {
+      "first_name": "Harry",
+      "last_name": "Johnson",
+      "date_of_birth": "1997-02-13",
+      "contact": {
+        "email": "harry.johnson.2@example.com",
+        "phone": "07797808098",
+        "address": {
+          "street": "180 Bridge Street",
+          "city": "Bristol",
+          "postcode": "BS1 5TR",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT002",
+    "role_id": "ROLE004",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2024-10-01",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 28000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0003",
+    "personal_details": {
+      "first_name": "Thomas",
+      "last_name": "Smith",
+      "date_of_birth": "1974-08-29",
+      "contact": {
+        "email": "thomas.smith.3@example.com",
+        "phone": "07919795579",
+        "address": {
+          "street": "87 Church Road",
+          "city": "Glasgow",
+          "postcode": "G1 1XQ",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT003",
+    "role_id": "ROLE003",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2022-09-28",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 30000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0004",
+    "personal_details": {
+      "first_name": "Poppy",
+      "last_name": "Jackson",
+      "date_of_birth": "1981-12-24",
+      "contact": {
+        "email": "poppy.jackson.4@example.com",
+        "phone": "07184611066",
+        "address": {
+          "street": "142 Park Lane",
+          "city": "Birmingham",
+          "postcode": "B9 2P",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT004",
+    "role_id": "ROLE005",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2026-03-08",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 32000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0005",
+    "personal_details": {
+      "first_name": "Arthur",
+      "last_name": "Wood",
+      "date_of_birth": "1999-09-05",
+      "contact": {
+        "email": "arthur.wood.5@example.com",
+        "phone": "07410727955",
+        "address": {
+          "street": "21 Victoria Road",
+          "city": "Glasgow",
+          "postcode": "G1 1XQ",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT005",
+    "role_id": "ROLE004",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2018-10-12",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 28500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0006",
+    "personal_details": {
+      "first_name": "Lucas",
+      "last_name": "Clarke",
+      "date_of_birth": "1996-06-25",
+      "contact": {
+        "email": "lucas.clarke.6@example.com",
+        "phone": "07833953718",
+        "address": {
+          "street": "166 Church Road",
+          "city": "London",
+          "postcode": "E1 6AN",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT001",
+    "role_id": "ROLE006",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2022-02-25",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 31500,
+        "currency": "GBP",
+        "salary_reviews": [
+          {
+            "review_id": "REV0006",
+            "previous_salary": 30000,
+            "new_salary": 31500,
+            "reason": "Annual salary review"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0007",
+    "personal_details": {
+      "first_name": "Oscar",
+      "last_name": "Wilson",
+      "date_of_birth": "1974-11-08",
+      "contact": {
+        "email": "oscar.wilson.7@example.com",
+        "phone": "07835098955",
+        "address": {
+          "street": "84 High Street",
+          "city": "Leeds",
+          "postcode": "LS1 4AP",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT002",
+    "role_id": "ROLE008",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2021-01-10",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 60000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0008",
+    "personal_details": {
+      "first_name": "Evie",
+      "last_name": "Evans",
+      "date_of_birth": "1979-02-12",
+      "contact": {
+        "email": "evie.evans.8@example.com",
+        "phone": "07328306011",
+        "address": {
+          "street": "168 Mill Road",
+          "city": "Birmingham",
+          "postcode": "B9 2P",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT003",
+    "role_id": "ROLE005",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2020-05-14",
+      "employment_type": "Part-time",
+      "compensation": {
+        "current_salary": 34000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0009",
+    "personal_details": {
+      "first_name": "Lucas",
+      "last_name": "Williams",
+      "date_of_birth": "1976-10-14",
+      "contact": {
+        "email": "lucas.williams.9@example.com",
+        "phone": "07902099969",
+        "address": {
+          "street": "150 Queen Street",
+          "city": "London",
+          "postcode": "E1 6AN",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT004",
+    "role_id": "ROLE005",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2020-10-07",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 36500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0010",
+    "personal_details": {
+      "first_name": "Sophia",
+      "last_name": "Williams",
+      "date_of_birth": "1971-11-10",
+      "contact": {
+        "email": "sophia.williams.10@example.com",
+        "phone": "07773715057",
+        "address": {
+          "street": "41 Queen Street",
+          "city": "Birmingham",
+          "postcode": "B9 2P",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT005",
+    "role_id": "ROLE008",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2026-06-23",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 41500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0011",
+    "personal_details": {
+      "first_name": "Lucas",
+      "last_name": "Green",
+      "date_of_birth": "1995-08-01",
+      "contact": {
+        "email": "lucas.green.11@example.com",
+        "phone": "07676567501",
+        "address": {
+          "street": "69 King Street",
+          "city": "Bristol",
+          "postcode": "BS1 5TR",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT001",
+    "role_id": "ROLE005",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2018-02-17",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 35500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0012",
+    "personal_details": {
+      "first_name": "Lucas",
+      "last_name": "Smith",
+      "date_of_birth": "1969-10-10",
+      "contact": {
+        "email": "lucas.smith.12@example.com",
+        "phone": "07771410971",
+        "address": {
+          "street": "77 Bridge Street",
+          "city": "Bristol",
+          "postcode": "BS1 5TR",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT002",
+    "role_id": "ROLE005",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2026-07-18",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 27500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0013",
+    "personal_details": {
+      "first_name": "Grace",
+      "last_name": "Hall",
+      "date_of_birth": "2002-04-23",
+      "contact": {
+        "email": "grace.hall.13@example.com",
+        "phone": "07966267851",
+        "address": {
+          "street": "79 Victoria Road",
+          "city": "Bristol",
+          "postcode": "BS1 5TR",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT003",
+    "role_id": "ROLE001",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2021-08-20",
+      "employment_type": "Fixed-term",
+      "compensation": {
+        "current_salary": 43500,
+        "currency": "GBP",
+        "salary_reviews": [
+          {
+            "review_id": "REV0013",
+            "previous_salary": 42000,
+            "new_salary": 43500,
+            "reason": "Annual salary review"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0014",
+    "personal_details": {
+      "first_name": "Harry",
+      "last_name": "Taylor",
+      "date_of_birth": "1970-10-05",
+      "contact": {
+        "email": "harry.taylor.14@example.com",
+        "phone": "07808402051",
+        "address": {
+          "street": "122 Bridge Street",
+          "city": "Birmingham",
+          "postcode": "B9 2P",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT004",
+    "role_id": "ROLE008",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2026-07-13",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 57000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0015",
+    "personal_details": {
+      "first_name": "Theodore",
+      "last_name": "Johnson",
+      "date_of_birth": "1994-02-25",
+      "contact": {
+        "email": "theodore.johnson.15@example.com",
+        "phone": "07500957212",
+        "address": {
+          "street": "113 Bridge Street",
+          "city": "Glasgow",
+          "postcode": "G1 1XQ",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT005",
+    "role_id": "ROLE004",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2021-06-30",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 34000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0016",
+    "personal_details": {
+      "first_name": "Isla",
+      "last_name": "Wright",
+      "date_of_birth": "1965-04-28",
+      "contact": {
+        "email": "isla.wright.16@example.com",
+        "phone": "07176228245",
+        "address": {
+          "street": "162 High Street",
+          "city": "Bristol",
+          "postcode": "BS1 5TR",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT001",
+    "role_id": "ROLE001",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2024-03-18",
+      "employment_type": "Part-time",
+      "compensation": {
+        "current_salary": 35000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0017",
+    "personal_details": {
+      "first_name": "William",
+      "last_name": "Taylor",
+      "date_of_birth": "1997-06-13",
+      "contact": {
+        "email": "william.taylor.17@example.com",
+        "phone": "07713152854",
+        "address": {
+          "street": "148 Mill Road",
+          "city": "Manchester",
+          "postcode": "M1 1AE",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT002",
+    "role_id": "ROLE004",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2025-07-03",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 35500,
+        "currency": "GBP",
+        "salary_reviews": [
+          {
+            "review_id": "REV0017",
+            "previous_salary": 34500,
+            "new_salary": 35500,
+            "reason": "Annual salary review"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0018",
+    "personal_details": {
+      "first_name": "Florence",
+      "last_name": "Johnson",
+      "date_of_birth": "1983-06-11",
+      "contact": {
+        "email": "florence.johnson.18@example.com",
+        "phone": "07601463916",
+        "address": {
+          "street": "14 Church Road",
+          "city": "Birmingham",
+          "postcode": "B9 2P",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT003",
+    "role_id": "ROLE002",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2025-05-23",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 30500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0019",
+    "personal_details": {
+      "first_name": "Ava",
+      "last_name": "Davies",
+      "date_of_birth": "1977-06-30",
+      "contact": {
+        "email": "ava.davies.19@example.com",
+        "phone": "07596743109",
+        "address": {
+          "street": "64 Church Road",
+          "city": "London",
+          "postcode": "E1 6AN",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT004",
+    "role_id": "ROLE004",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2024-01-06",
+      "employment_type": "Fixed-term",
+      "compensation": {
+        "current_salary": 35000,
+        "currency": "GBP",
+        "salary_reviews": [
+          {
+            "review_id": "REV0019",
+            "previous_salary": 34000,
+            "new_salary": 35000,
+            "reason": "Annual salary review"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0020",
+    "personal_details": {
+      "first_name": "Ava",
+      "last_name": "Jones",
+      "date_of_birth": "1986-08-05",
+      "contact": {
+        "email": "ava.jones.20@example.com",
+        "phone": "07329509408",
+        "address": {
+          "street": "103 High Street",
+          "city": "Birmingham",
+          "postcode": "B9 2P",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT005",
+    "role_id": "ROLE001",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2026-06-14",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 35500,
+        "currency": "GBP",
+        "salary_reviews": [
+          {
+            "review_id": "REV0020",
+            "previous_salary": 34000,
+            "new_salary": 35500,
+            "reason": "Annual salary review"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0021",
+    "personal_details": {
+      "first_name": "Mia",
+      "last_name": "Patel",
+      "date_of_birth": "1986-10-31",
+      "contact": {
+        "email": "mia.patel.21@example.com",
+        "phone": "07266211829",
+        "address": {
+          "street": "49 Park Lane",
+          "city": "Manchester",
+          "postcode": "M1 1AE",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT001",
+    "role_id": "ROLE008",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2022-09-29",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 57500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0022",
+    "personal_details": {
+      "first_name": "George",
+      "last_name": "Wright",
+      "date_of_birth": "2003-04-02",
+      "contact": {
+        "email": "george.wright.22@example.com",
+        "phone": "07670292350",
+        "address": {
+          "street": "41 High Street",
+          "city": "Birmingham",
+          "postcode": "B9 2P",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT002",
+    "role_id": "ROLE001",
+    "status": "Inactive",
+    "employment": {
+      "hire_date": "2024-07-20",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 43000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0023",
+    "personal_details": {
+      "first_name": "Jack",
+      "last_name": "Taylor",
+      "date_of_birth": "1976-01-17",
+      "contact": {
+        "email": "jack.taylor.23@example.com",
+        "phone": "07721609600",
+        "address": {
+          "street": "153 High Street",
+          "city": "Glasgow",
+          "postcode": "G1 1XQ",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT003",
+    "role_id": "ROLE002",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2020-08-21",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 30000,
+        "currency": "GBP",
+        "salary_reviews": [
+          {
+            "review_id": "REV0023",
+            "previous_salary": 28000,
+            "new_salary": 30000,
+            "reason": "Annual salary review"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0024",
+    "personal_details": {
+      "first_name": "Evie",
+      "last_name": "Patel",
+      "date_of_birth": "1970-11-15",
+      "contact": {
+        "email": "evie.patel.24@example.com",
+        "phone": "07821221887",
+        "address": {
+          "street": "166 Park Lane",
+          "city": "Glasgow",
+          "postcode": "G1 1XQ",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT004",
+    "role_id": "ROLE004",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2026-01-12",
+      "employment_type": "Part-time",
+      "compensation": {
+        "current_salary": 33000,
+        "currency": "GBP",
+        "salary_reviews": [
+          {
+            "review_id": "REV0024",
+            "previous_salary": 31500,
+            "new_salary": 33000,
+            "reason": "Annual salary review"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0025",
+    "personal_details": {
+      "first_name": "Isla",
+      "last_name": "Smith",
+      "date_of_birth": "1987-09-11",
+      "contact": {
+        "email": "isla.smith.25@example.com",
+        "phone": "07384756779",
+        "address": {
+          "street": "34 King Street",
+          "city": "Bristol",
+          "postcode": "BS1 5TR",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT005",
+    "role_id": "ROLE008",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2024-04-25",
+      "employment_type": "Fixed-term",
+      "compensation": {
+        "current_salary": 43000,
+        "currency": "GBP",
+        "salary_reviews": [
+          {
+            "review_id": "REV0025",
+            "previous_salary": 42000,
+            "new_salary": 43000,
+            "reason": "Annual salary review"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0026",
+    "personal_details": {
+      "first_name": "Arthur",
+      "last_name": "Robinson",
+      "date_of_birth": "2001-03-16",
+      "contact": {
+        "email": "arthur.robinson.26@example.com",
+        "phone": "07802201721",
+        "address": {
+          "street": "136 High Street",
+          "city": "Leeds",
+          "postcode": "LS1 4AP",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT001",
+    "role_id": "ROLE003",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2024-02-04",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 36000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0027",
+    "personal_details": {
+      "first_name": "Ava",
+      "last_name": "Williams",
+      "date_of_birth": "1977-03-21",
+      "contact": {
+        "email": "ava.williams.27@example.com",
+        "phone": "07402533494",
+        "address": {
+          "street": "155 Victoria Road",
+          "city": "Birmingham",
+          "postcode": "B9 2P",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT002",
+    "role_id": "ROLE005",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2019-03-15",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 36500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0028",
+    "personal_details": {
+      "first_name": "Ella",
+      "last_name": "Green",
+      "date_of_birth": "2002-03-16",
+      "contact": {
+        "email": "ella.green.28@example.com",
+        "phone": "07397083132",
+        "address": {
+          "street": "12 High Street",
+          "city": "Manchester",
+          "postcode": "M1 1AE",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT003",
+    "role_id": "ROLE008",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2018-07-28",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 42500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0029",
+    "personal_details": {
+      "first_name": "Ella",
+      "last_name": "Wilson",
+      "date_of_birth": "1970-01-07",
+      "contact": {
+        "email": "ella.wilson.29@example.com",
+        "phone": "07180792472",
+        "address": {
+          "street": "177 Station Road",
+          "city": "Bristol",
+          "postcode": "BS1 5TR",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT004",
+    "role_id": "ROLE008",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2025-11-30",
+      "employment_type": "Fixed-term",
+      "compensation": {
+        "current_salary": 53500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0030",
+    "personal_details": {
+      "first_name": "Leo",
+      "last_name": "Walker",
+      "date_of_birth": "2000-09-17",
+      "contact": {
+        "email": "leo.walker.30@example.com",
+        "phone": "07142836793",
+        "address": {
+          "street": "92 Victoria Road",
+          "city": "Birmingham",
+          "postcode": "B9 2P",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT005",
+    "role_id": "ROLE003",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2021-06-16",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 30500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0031",
+    "personal_details": {
+      "first_name": "Poppy",
+      "last_name": "Hall",
+      "date_of_birth": "1975-08-15",
+      "contact": {
+        "email": "poppy.hall.31@example.com",
+        "phone": "07274484941",
+        "address": {
+          "street": "46 Queen Street",
+          "city": "Bristol",
+          "postcode": "BS1 5TR",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT001",
+    "role_id": "ROLE007",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2026-05-28",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 39500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0032",
+    "personal_details": {
+      "first_name": "William",
+      "last_name": "Walker",
+      "date_of_birth": "1982-02-28",
+      "contact": {
+        "email": "william.walker.32@example.com",
+        "phone": "07141580226",
+        "address": {
+          "street": "121 Victoria Road",
+          "city": "Manchester",
+          "postcode": "M1 1AE",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT002",
+    "role_id": "ROLE004",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2019-10-15",
+      "employment_type": "Part-time",
+      "compensation": {
+        "current_salary": 40500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0033",
+    "personal_details": {
+      "first_name": "Poppy",
+      "last_name": "Robinson",
+      "date_of_birth": "1977-07-01",
+      "contact": {
+        "email": "poppy.robinson.33@example.com",
+        "phone": "07174539964",
+        "address": {
+          "street": "72 King Street",
+          "city": "London",
+          "postcode": "E1 6AN",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT003",
+    "role_id": "ROLE004",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2018-04-07",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 38500,
+        "currency": "GBP",
+        "salary_reviews": [
+          {
+            "review_id": "REV0033",
+            "previous_salary": 37000,
+            "new_salary": 38500,
+            "reason": "Annual salary review"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0034",
+    "personal_details": {
+      "first_name": "William",
+      "last_name": "Smith",
+      "date_of_birth": "1976-11-28",
+      "contact": {
+        "email": "william.smith.34@example.com",
+        "phone": "07141078352",
+        "address": {
+          "street": "28 Queen Street",
+          "city": "Manchester",
+          "postcode": "M1 1AE",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT004",
+    "role_id": "ROLE002",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2020-01-02",
+      "employment_type": "Fixed-term",
+      "compensation": {
+        "current_salary": 33000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0035",
+    "personal_details": {
+      "first_name": "Theodore",
+      "last_name": "Jackson",
+      "date_of_birth": "1996-10-17",
+      "contact": {
+        "email": "theodore.jackson.35@example.com",
+        "phone": "07568213197",
+        "address": {
+          "street": "1 Bridge Street",
+          "city": "Leeds",
+          "postcode": "LS1 4AP",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT005",
+    "role_id": "ROLE002",
+    "status": "Inactive",
+    "employment": {
+      "hire_date": "2024-06-19",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 27000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0036",
+    "personal_details": {
+      "first_name": "Lily",
+      "last_name": "Thompson",
+      "date_of_birth": "1994-10-04",
+      "contact": {
+        "email": "lily.thompson.36@example.com",
+        "phone": "07233815413",
+        "address": {
+          "street": "77 Bridge Street",
+          "city": "Birmingham",
+          "postcode": "B9 2P",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT001",
+    "role_id": "ROLE007",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2025-06-13",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 45500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0037",
+    "personal_details": {
+      "first_name": "Henry",
+      "last_name": "Robinson",
+      "date_of_birth": "1995-05-21",
+      "contact": {
+        "email": "henry.robinson.37@example.com",
+        "phone": "07903303363",
+        "address": {
+          "street": "45 Park Lane",
+          "city": "London",
+          "postcode": "E1 6AN",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT002",
+    "role_id": "ROLE003",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2022-09-19",
+      "employment_type": "Fixed-term",
+      "compensation": {
+        "current_salary": 35500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0038",
+    "personal_details": {
+      "first_name": "James",
+      "last_name": "Robinson",
+      "date_of_birth": "1985-11-10",
+      "contact": {
+        "email": "james.robinson.38@example.com",
+        "phone": "07574364121",
+        "address": {
+          "street": "114 Victoria Road",
+          "city": "Leeds",
+          "postcode": "LS1 4AP",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT003",
+    "role_id": "ROLE004",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2024-07-03",
+      "employment_type": "Fixed-term",
+      "compensation": {
+        "current_salary": 37500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0039",
+    "personal_details": {
+      "first_name": "Grace",
+      "last_name": "Lewis",
+      "date_of_birth": "1980-01-14",
+      "contact": {
+        "email": "grace.lewis.39@example.com",
+        "phone": "07200273738",
+        "address": {
+          "street": "61 Park Lane",
+          "city": "Manchester",
+          "postcode": "M1 1AE",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT004",
+    "role_id": "ROLE002",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2023-10-13",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 34500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0040",
+    "personal_details": {
+      "first_name": "Oliver",
+      "last_name": "Jones",
+      "date_of_birth": "1985-06-06",
+      "contact": {
+        "email": "oliver.jones.40@example.com",
+        "phone": "07545002643",
+        "address": {
+          "street": "162 Victoria Road",
+          "city": "Leeds",
+          "postcode": "LS1 4AP",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT005",
+    "role_id": "ROLE004",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2024-11-08",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 41500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0041",
+    "personal_details": {
+      "first_name": "Henry",
+      "last_name": "Davies",
+      "date_of_birth": "2003-08-07",
+      "contact": {
+        "email": "henry.davies.41@example.com",
+        "phone": "07926830795",
+        "address": {
+          "street": "28 Queen Street",
+          "city": "Glasgow",
+          "postcode": "G1 1XQ",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT001",
+    "role_id": "ROLE003",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2025-09-17",
+      "employment_type": "Fixed-term",
+      "compensation": {
+        "current_salary": 25000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0042",
+    "personal_details": {
+      "first_name": "Lucas",
+      "last_name": "Jones",
+      "date_of_birth": "1994-12-12",
+      "contact": {
+        "email": "lucas.jones.42@example.com",
+        "phone": "07670298515",
+        "address": {
+          "street": "144 King Street",
+          "city": "Birmingham",
+          "postcode": "B9 2P",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT002",
+    "role_id": "ROLE004",
+    "status": "Inactive",
+    "employment": {
+      "hire_date": "2023-02-13",
+      "employment_type": "Fixed-term",
+      "compensation": {
+        "current_salary": 30000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0043",
+    "personal_details": {
+      "first_name": "Theodore",
+      "last_name": "Hall",
+      "date_of_birth": "1998-09-22",
+      "contact": {
+        "email": "theodore.hall.43@example.com",
+        "phone": "07365471644",
+        "address": {
+          "street": "164 Park Lane",
+          "city": "London",
+          "postcode": "E1 6AN",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT003",
+    "role_id": "ROLE008",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2026-05-05",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 55000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0044",
+    "personal_details": {
+      "first_name": "Oscar",
+      "last_name": "Patel",
+      "date_of_birth": "1979-05-06",
+      "contact": {
+        "email": "oscar.patel.44@example.com",
+        "phone": "07679984033",
+        "address": {
+          "street": "21 Station Road",
+          "city": "Birmingham",
+          "postcode": "B9 2P",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT004",
+    "role_id": "ROLE008",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2026-01-01",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 49000,
+        "currency": "GBP",
+        "salary_reviews": [
+          {
+            "review_id": "REV0044",
+            "previous_salary": 47500,
+            "new_salary": 49000,
+            "reason": "Annual salary review"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0045",
+    "personal_details": {
+      "first_name": "Leo",
+      "last_name": "Johnson",
+      "date_of_birth": "1983-08-27",
+      "contact": {
+        "email": "leo.johnson.45@example.com",
+        "phone": "07166857303",
+        "address": {
+          "street": "53 Queen Street",
+          "city": "Leeds",
+          "postcode": "LS1 4AP",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT005",
+    "role_id": "ROLE002",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2022-07-28",
+      "employment_type": "Fixed-term",
+      "compensation": {
+        "current_salary": 29000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0046",
+    "personal_details": {
+      "first_name": "Oliver",
+      "last_name": "Wood",
+      "date_of_birth": "1982-06-30",
+      "contact": {
+        "email": "oliver.wood.46@example.com",
+        "phone": "07997356828",
+        "address": {
+          "street": "108 Bridge Street",
+          "city": "Leeds",
+          "postcode": "LS1 4AP",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT001",
+    "role_id": "ROLE007",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2018-01-25",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 46000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0047",
+    "personal_details": {
+      "first_name": "Sophia",
+      "last_name": "Roberts",
+      "date_of_birth": "1995-01-02",
+      "contact": {
+        "email": "sophia.roberts.47@example.com",
+        "phone": "07829223044",
+        "address": {
+          "street": "104 Station Road",
+          "city": "Manchester",
+          "postcode": "M1 1AE",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT002",
+    "role_id": "ROLE004",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2022-11-21",
+      "employment_type": "Part-time",
+      "compensation": {
+        "current_salary": 35500,
+        "currency": "GBP",
+        "salary_reviews": [
+          {
+            "review_id": "REV0047",
+            "previous_salary": 34000,
+            "new_salary": 35500,
+            "reason": "Annual salary review"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0048",
+    "personal_details": {
+      "first_name": "Oliver",
+      "last_name": "Evans",
+      "date_of_birth": "1973-02-25",
+      "contact": {
+        "email": "oliver.evans.48@example.com",
+        "phone": "07153992714",
+        "address": {
+          "street": "67 Queen Street",
+          "city": "Birmingham",
+          "postcode": "B9 2P",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT003",
+    "role_id": "ROLE001",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2025-03-17",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 41500,
+        "currency": "GBP",
+        "salary_reviews": [
+          {
+            "review_id": "REV0048",
+            "previous_salary": 40000,
+            "new_salary": 41500,
+            "reason": "Annual salary review"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0049",
+    "personal_details": {
+      "first_name": "William",
+      "last_name": "Evans",
+      "date_of_birth": "1998-08-08",
+      "contact": {
+        "email": "william.evans.49@example.com",
+        "phone": "07679196799",
+        "address": {
+          "street": "14 King Street",
+          "city": "Leeds",
+          "postcode": "LS1 4AP",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT004",
+    "role_id": "ROLE005",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2020-10-30",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 38000,
+        "currency": "GBP",
+        "salary_reviews": [
+          {
+            "review_id": "REV0049",
+            "previous_salary": 37000,
+            "new_salary": 38000,
+            "reason": "Annual salary review"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0050",
+    "personal_details": {
+      "first_name": "Amelia",
+      "last_name": "Smith",
+      "date_of_birth": "1986-03-30",
+      "contact": {
+        "email": "amelia.smith.50@example.com",
+        "phone": "07818825964",
+        "address": {
+          "street": "30 Victoria Road",
+          "city": "London",
+          "postcode": "E1 6AN",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT005",
+    "role_id": "ROLE004",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2018-03-25",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 37500,
+        "currency": "GBP",
+        "salary_reviews": [
+          {
+            "review_id": "REV0050",
+            "previous_salary": 36500,
+            "new_salary": 37500,
+            "reason": "Annual salary review"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0051",
+    "personal_details": {
+      "first_name": "Arthur",
+      "last_name": "Wilson",
+      "date_of_birth": "1978-12-30",
+      "contact": {
+        "email": "arthur.wilson.51@example.com",
+        "phone": "07718257024",
+        "address": {
+          "street": "174 Queen Street",
+          "city": "London",
+          "postcode": "E1 6AN",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT001",
+    "role_id": "ROLE002",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2021-06-28",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 25500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0052",
+    "personal_details": {
+      "first_name": "Isla",
+      "last_name": "Wood",
+      "date_of_birth": "1995-09-11",
+      "contact": {
+        "email": "isla.wood.52@example.com",
+        "phone": "07744687060",
+        "address": {
+          "street": "31 High Street",
+          "city": "Birmingham",
+          "postcode": "B9 2P",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT002",
+    "role_id": "ROLE004",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2025-10-26",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 40000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0053",
+    "personal_details": {
+      "first_name": "Arthur",
+      "last_name": "Taylor",
+      "date_of_birth": "1984-06-12",
+      "contact": {
+        "email": "arthur.taylor.53@example.com",
+        "phone": "07488896443",
+        "address": {
+          "street": "163 Mill Road",
+          "city": "Birmingham",
+          "postcode": "B9 2P",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT003",
+    "role_id": "ROLE006",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2022-09-17",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 39000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0054",
+    "personal_details": {
+      "first_name": "Thomas",
+      "last_name": "Jackson",
+      "date_of_birth": "2003-03-17",
+      "contact": {
+        "email": "thomas.jackson.54@example.com",
+        "phone": "07363598427",
+        "address": {
+          "street": "23 Park Lane",
+          "city": "Leeds",
+          "postcode": "LS1 4AP",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT004",
+    "role_id": "ROLE008",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2022-11-20",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 58500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0055",
+    "personal_details": {
+      "first_name": "Lucas",
+      "last_name": "Wood",
+      "date_of_birth": "1973-02-27",
+      "contact": {
+        "email": "lucas.wood.55@example.com",
+        "phone": "07623502759",
+        "address": {
+          "street": "55 King Street",
+          "city": "Manchester",
+          "postcode": "M1 1AE",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT005",
+    "role_id": "ROLE007",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2018-04-28",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 50500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0056",
+    "personal_details": {
+      "first_name": "Thomas",
+      "last_name": "Hall",
+      "date_of_birth": "1986-12-01",
+      "contact": {
+        "email": "thomas.hall.56@example.com",
+        "phone": "07696115913",
+        "address": {
+          "street": "62 Mill Road",
+          "city": "Bristol",
+          "postcode": "BS1 5TR",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT001",
+    "role_id": "ROLE001",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2020-02-22",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 30500,
+        "currency": "GBP",
+        "salary_reviews": [
+          {
+            "review_id": "REV0056",
+            "previous_salary": 29000,
+            "new_salary": 30500,
+            "reason": "Annual salary review"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0057",
+    "personal_details": {
+      "first_name": "Oliver",
+      "last_name": "Taylor",
+      "date_of_birth": "1991-02-02",
+      "contact": {
+        "email": "oliver.taylor.57@example.com",
+        "phone": "07496232693",
+        "address": {
+          "street": "122 Bridge Street",
+          "city": "London",
+          "postcode": "E1 6AN",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT002",
+    "role_id": "ROLE005",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2022-07-15",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 36000,
+        "currency": "GBP",
+        "salary_reviews": [
+          {
+            "review_id": "REV0057",
+            "previous_salary": 34000,
+            "new_salary": 36000,
+            "reason": "Annual salary review"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0058",
+    "personal_details": {
+      "first_name": "William",
+      "last_name": "Thompson",
+      "date_of_birth": "1973-08-22",
+      "contact": {
+        "email": "william.thompson.58@example.com",
+        "phone": "07438817025",
+        "address": {
+          "street": "31 Bridge Street",
+          "city": "Manchester",
+          "postcode": "M1 1AE",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT003",
+    "role_id": "ROLE008",
+    "status": "Inactive",
+    "employment": {
+      "hire_date": "2021-06-09",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 48000,
+        "currency": "GBP",
+        "salary_reviews": [
+          {
+            "review_id": "REV0058",
+            "previous_salary": 46000,
+            "new_salary": 48000,
+            "reason": "Annual salary review"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0059",
+    "personal_details": {
+      "first_name": "Lily",
+      "last_name": "Johnson",
+      "date_of_birth": "1988-07-14",
+      "contact": {
+        "email": "lily.johnson.59@example.com",
+        "phone": "07740799178",
+        "address": {
+          "street": "73 Church Road",
+          "city": "Manchester",
+          "postcode": "M1 1AE",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT004",
+    "role_id": "ROLE008",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2026-02-15",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 58500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0060",
+    "personal_details": {
+      "first_name": "Arthur",
+      "last_name": "Wilson",
+      "date_of_birth": "1967-06-13",
+      "contact": {
+        "email": "arthur.wilson.60@example.com",
+        "phone": "07694164665",
+        "address": {
+          "street": "75 Station Road",
+          "city": "Birmingham",
+          "postcode": "B9 2P",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT005",
+    "role_id": "ROLE005",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2025-12-10",
+      "employment_type": "Fixed-term",
+      "compensation": {
+        "current_salary": 33500,
+        "currency": "GBP",
+        "salary_reviews": [
+          {
+            "review_id": "REV0060",
+            "previous_salary": 32500,
+            "new_salary": 33500,
+            "reason": "Annual salary review"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0061",
+    "personal_details": {
+      "first_name": "Ava",
+      "last_name": "Smith",
+      "date_of_birth": "1967-04-22",
+      "contact": {
+        "email": "ava.smith.61@example.com",
+        "phone": "07371096600",
+        "address": {
+          "street": "123 Church Road",
+          "city": "Leeds",
+          "postcode": "LS1 4AP",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT001",
+    "role_id": "ROLE005",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2023-05-15",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 32000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0062",
+    "personal_details": {
+      "first_name": "Isla",
+      "last_name": "Wood",
+      "date_of_birth": "1970-04-25",
+      "contact": {
+        "email": "isla.wood.62@example.com",
+        "phone": "07699226355",
+        "address": {
+          "street": "107 Victoria Road",
+          "city": "London",
+          "postcode": "E1 6AN",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT002",
+    "role_id": "ROLE001",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2019-09-04",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 37500,
+        "currency": "GBP",
+        "salary_reviews": [
+          {
+            "review_id": "REV0062",
+            "previous_salary": 36500,
+            "new_salary": 37500,
+            "reason": "Annual salary review"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0063",
+    "personal_details": {
+      "first_name": "Sophie",
+      "last_name": "Robinson",
+      "date_of_birth": "1969-06-14",
+      "contact": {
+        "email": "sophie.robinson.63@example.com",
+        "phone": "07918982730",
+        "address": {
+          "street": "54 Victoria Road",
+          "city": "Manchester",
+          "postcode": "M1 1AE",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT003",
+    "role_id": "ROLE007",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2024-05-18",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 54500,
+        "currency": "GBP",
+        "salary_reviews": [
+          {
+            "review_id": "REV0063",
+            "previous_salary": 52500,
+            "new_salary": 54500,
+            "reason": "Annual salary review"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0064",
+    "personal_details": {
+      "first_name": "Oscar",
+      "last_name": "Wilson",
+      "date_of_birth": "1991-08-22",
+      "contact": {
+        "email": "oscar.wilson.64@example.com",
+        "phone": "07604564682",
+        "address": {
+          "street": "75 High Street",
+          "city": "London",
+          "postcode": "E1 6AN",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT004",
+    "role_id": "ROLE002",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2018-01-11",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 30500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0065",
+    "personal_details": {
+      "first_name": "Lucas",
+      "last_name": "Taylor",
+      "date_of_birth": "1973-11-16",
+      "contact": {
+        "email": "lucas.taylor.65@example.com",
+        "phone": "07556489494",
+        "address": {
+          "street": "30 Bridge Street",
+          "city": "Manchester",
+          "postcode": "M1 1AE",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT005",
+    "role_id": "ROLE004",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2025-01-04",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 37000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0066",
+    "personal_details": {
+      "first_name": "Thomas",
+      "last_name": "Williams",
+      "date_of_birth": "2001-12-22",
+      "contact": {
+        "email": "thomas.williams.66@example.com",
+        "phone": "07711181411",
+        "address": {
+          "street": "74 Mill Road",
+          "city": "Birmingham",
+          "postcode": "B9 2P",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT001",
+    "role_id": "ROLE002",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2019-11-11",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 28500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0067",
+    "personal_details": {
+      "first_name": "Henry",
+      "last_name": "Patel",
+      "date_of_birth": "1997-12-13",
+      "contact": {
+        "email": "henry.patel.67@example.com",
+        "phone": "07446090161",
+        "address": {
+          "street": "155 Park Lane",
+          "city": "Leeds",
+          "postcode": "LS1 4AP",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT002",
+    "role_id": "ROLE008",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2018-11-26",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 59000,
+        "currency": "GBP",
+        "salary_reviews": [
+          {
+            "review_id": "REV0067",
+            "previous_salary": 57500,
+            "new_salary": 59000,
+            "reason": "Annual salary review"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0068",
+    "personal_details": {
+      "first_name": "Oliver",
+      "last_name": "Lewis",
+      "date_of_birth": "1986-02-08",
+      "contact": {
+        "email": "oliver.lewis.68@example.com",
+        "phone": "07657233178",
+        "address": {
+          "street": "167 Mill Road",
+          "city": "Bristol",
+          "postcode": "BS1 5TR",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT003",
+    "role_id": "ROLE005",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2018-06-14",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 37000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0069",
+    "personal_details": {
+      "first_name": "Theodore",
+      "last_name": "Clarke",
+      "date_of_birth": "1979-05-28",
+      "contact": {
+        "email": "theodore.clarke.69@example.com",
+        "phone": "07819550381",
+        "address": {
+          "street": "27 Station Road",
+          "city": "Birmingham",
+          "postcode": "B9 2P",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT004",
+    "role_id": "ROLE008",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2023-04-10",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 51000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0070",
+    "personal_details": {
+      "first_name": "Freya",
+      "last_name": "Lewis",
+      "date_of_birth": "1979-07-03",
+      "contact": {
+        "email": "freya.lewis.70@example.com",
+        "phone": "07224469868",
+        "address": {
+          "street": "104 Bridge Street",
+          "city": "Bristol",
+          "postcode": "BS1 5TR",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT005",
+    "role_id": "ROLE007",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2018-05-31",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 49500,
+        "currency": "GBP",
+        "salary_reviews": [
+          {
+            "review_id": "REV0070",
+            "previous_salary": 48000,
+            "new_salary": 49500,
+            "reason": "Annual salary review"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0071",
+    "personal_details": {
+      "first_name": "Lucas",
+      "last_name": "Walker",
+      "date_of_birth": "1987-05-13",
+      "contact": {
+        "email": "lucas.walker.71@example.com",
+        "phone": "07771527524",
+        "address": {
+          "street": "114 High Street",
+          "city": "London",
+          "postcode": "E1 6AN",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT001",
+    "role_id": "ROLE001",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2023-10-25",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 39500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0072",
+    "personal_details": {
+      "first_name": "Freya",
+      "last_name": "White",
+      "date_of_birth": "1975-09-26",
+      "contact": {
+        "email": "freya.white.72@example.com",
+        "phone": "07862123506",
+        "address": {
+          "street": "41 Park Lane",
+          "city": "Birmingham",
+          "postcode": "B9 2P",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT002",
+    "role_id": "ROLE008",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2018-04-29",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 60000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0073",
+    "personal_details": {
+      "first_name": "Harry",
+      "last_name": "Davies",
+      "date_of_birth": "1987-05-11",
+      "contact": {
+        "email": "harry.davies.73@example.com",
+        "phone": "07869446962",
+        "address": {
+          "street": "75 Bridge Street",
+          "city": "Leeds",
+          "postcode": "LS1 4AP",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT003",
+    "role_id": "ROLE002",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2019-04-27",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 34000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0074",
+    "personal_details": {
+      "first_name": "Ruby",
+      "last_name": "Roberts",
+      "date_of_birth": "1991-11-21",
+      "contact": {
+        "email": "ruby.roberts.74@example.com",
+        "phone": "07645719501",
+        "address": {
+          "street": "35 Church Road",
+          "city": "Leeds",
+          "postcode": "LS1 4AP",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT004",
+    "role_id": "ROLE004",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2024-03-07",
+      "employment_type": "Fixed-term",
+      "compensation": {
+        "current_salary": 30000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0075",
+    "personal_details": {
+      "first_name": "Florence",
+      "last_name": "Wright",
+      "date_of_birth": "1991-05-01",
+      "contact": {
+        "email": "florence.wright.75@example.com",
+        "phone": "07722687986",
+        "address": {
+          "street": "169 Mill Road",
+          "city": "Birmingham",
+          "postcode": "B9 2P",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT005",
+    "role_id": "ROLE005",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2021-03-04",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 36500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0076",
+    "personal_details": {
+      "first_name": "Ruby",
+      "last_name": "Thompson",
+      "date_of_birth": "1979-06-09",
+      "contact": {
+        "email": "ruby.thompson.76@example.com",
+        "phone": "07302563940",
+        "address": {
+          "street": "179 Victoria Road",
+          "city": "Bristol",
+          "postcode": "BS1 5TR",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT001",
+    "role_id": "ROLE006",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2026-07-22",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 34500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0077",
+    "personal_details": {
+      "first_name": "Florence",
+      "last_name": "Jones",
+      "date_of_birth": "1982-02-07",
+      "contact": {
+        "email": "florence.jones.77@example.com",
+        "phone": "07514548900",
+        "address": {
+          "street": "170 Station Road",
+          "city": "Glasgow",
+          "postcode": "G1 1XQ",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT002",
+    "role_id": "ROLE006",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2023-04-22",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 37000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0078",
+    "personal_details": {
+      "first_name": "William",
+      "last_name": "Brown",
+      "date_of_birth": "1983-05-24",
+      "contact": {
+        "email": "william.brown.78@example.com",
+        "phone": "07803066091",
+        "address": {
+          "street": "40 Church Road",
+          "city": "Birmingham",
+          "postcode": "B9 2P",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT003",
+    "role_id": "ROLE008",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2023-11-25",
+      "employment_type": "Part-time",
+      "compensation": {
+        "current_salary": 54500,
+        "currency": "GBP",
+        "salary_reviews": [
+          {
+            "review_id": "REV0078",
+            "previous_salary": 53500,
+            "new_salary": 54500,
+            "reason": "Annual salary review"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0079",
+    "personal_details": {
+      "first_name": "William",
+      "last_name": "Jackson",
+      "date_of_birth": "2003-07-20",
+      "contact": {
+        "email": "william.jackson.79@example.com",
+        "phone": "07672972597",
+        "address": {
+          "street": "98 King Street",
+          "city": "Glasgow",
+          "postcode": "G1 1XQ",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT004",
+    "role_id": "ROLE007",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2018-11-25",
+      "employment_type": "Fixed-term",
+      "compensation": {
+        "current_salary": 45500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0080",
+    "personal_details": {
+      "first_name": "Archie",
+      "last_name": "Hall",
+      "date_of_birth": "1977-11-22",
+      "contact": {
+        "email": "archie.hall.80@example.com",
+        "phone": "07344261532",
+        "address": {
+          "street": "24 Queen Street",
+          "city": "Bristol",
+          "postcode": "BS1 5TR",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT005",
+    "role_id": "ROLE001",
+    "status": "Inactive",
+    "employment": {
+      "hire_date": "2018-10-08",
+      "employment_type": "Fixed-term",
+      "compensation": {
+        "current_salary": 35500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0081",
+    "personal_details": {
+      "first_name": "Ava",
+      "last_name": "White",
+      "date_of_birth": "1978-02-28",
+      "contact": {
+        "email": "ava.white.81@example.com",
+        "phone": "07484897084",
+        "address": {
+          "street": "96 Queen Street",
+          "city": "Glasgow",
+          "postcode": "G1 1XQ",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT001",
+    "role_id": "ROLE003",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2021-05-11",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 25000,
+        "currency": "GBP",
+        "salary_reviews": [
+          {
+            "review_id": "REV0081",
+            "previous_salary": 25000,
+            "new_salary": 25000,
+            "reason": "Annual salary review"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0082",
+    "personal_details": {
+      "first_name": "Jack",
+      "last_name": "Wilson",
+      "date_of_birth": "1975-10-21",
+      "contact": {
+        "email": "jack.wilson.82@example.com",
+        "phone": "07634366139",
+        "address": {
+          "street": "150 Station Road",
+          "city": "Birmingham",
+          "postcode": "B9 2P",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT002",
+    "role_id": "ROLE003",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2024-11-01",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 31000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0083",
+    "personal_details": {
+      "first_name": "Lucas",
+      "last_name": "Patel",
+      "date_of_birth": "1980-07-02",
+      "contact": {
+        "email": "lucas.patel.83@example.com",
+        "phone": "07730900313",
+        "address": {
+          "street": "77 Queen Street",
+          "city": "Leeds",
+          "postcode": "LS1 4AP",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT003",
+    "role_id": "ROLE001",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2021-03-24",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 45000,
+        "currency": "GBP",
+        "salary_reviews": [
+          {
+            "review_id": "REV0083",
+            "previous_salary": 43500,
+            "new_salary": 45000,
+            "reason": "Annual salary review"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0084",
+    "personal_details": {
+      "first_name": "James",
+      "last_name": "Johnson",
+      "date_of_birth": "1981-02-07",
+      "contact": {
+        "email": "james.johnson.84@example.com",
+        "phone": "07717199615",
+        "address": {
+          "street": "76 Park Lane",
+          "city": "Leeds",
+          "postcode": "LS1 4AP",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT004",
+    "role_id": "ROLE007",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2019-03-13",
+      "employment_type": "Fixed-term",
+      "compensation": {
+        "current_salary": 42500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0085",
+    "personal_details": {
+      "first_name": "Henry",
+      "last_name": "Patel",
+      "date_of_birth": "1998-06-05",
+      "contact": {
+        "email": "henry.patel.85@example.com",
+        "phone": "07633356861",
+        "address": {
+          "street": "74 Victoria Road",
+          "city": "Bristol",
+          "postcode": "BS1 5TR",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT005",
+    "role_id": "ROLE001",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2025-09-10",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 29500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0086",
+    "personal_details": {
+      "first_name": "Lily",
+      "last_name": "Jackson",
+      "date_of_birth": "1995-07-18",
+      "contact": {
+        "email": "lily.jackson.86@example.com",
+        "phone": "07246865585",
+        "address": {
+          "street": "161 Church Road",
+          "city": "Glasgow",
+          "postcode": "G1 1XQ",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT001",
+    "role_id": "ROLE005",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2026-06-22",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 36500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0087",
+    "personal_details": {
+      "first_name": "James",
+      "last_name": "White",
+      "date_of_birth": "1979-08-28",
+      "contact": {
+        "email": "james.white.87@example.com",
+        "phone": "07902601465",
+        "address": {
+          "street": "107 Station Road",
+          "city": "Bristol",
+          "postcode": "BS1 5TR",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT002",
+    "role_id": "ROLE001",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2022-02-03",
+      "employment_type": "Fixed-term",
+      "compensation": {
+        "current_salary": 32000,
+        "currency": "GBP",
+        "salary_reviews": [
+          {
+            "review_id": "REV0087",
+            "previous_salary": 30500,
+            "new_salary": 32000,
+            "reason": "Annual salary review"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0088",
+    "personal_details": {
+      "first_name": "Arthur",
+      "last_name": "Green",
+      "date_of_birth": "2001-03-06",
+      "contact": {
+        "email": "arthur.green.88@example.com",
+        "phone": "07416905717",
+        "address": {
+          "street": "87 Church Road",
+          "city": "London",
+          "postcode": "E1 6AN",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT003",
+    "role_id": "ROLE005",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2020-11-18",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 38000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0089",
+    "personal_details": {
+      "first_name": "Sophia",
+      "last_name": "Lewis",
+      "date_of_birth": "1965-08-17",
+      "contact": {
+        "email": "sophia.lewis.89@example.com",
+        "phone": "07383960237",
+        "address": {
+          "street": "138 Church Road",
+          "city": "Bristol",
+          "postcode": "BS1 5TR",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT004",
+    "role_id": "ROLE007",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2022-02-07",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 37500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0090",
+    "personal_details": {
+      "first_name": "Ella",
+      "last_name": "Wood",
+      "date_of_birth": "1986-02-24",
+      "contact": {
+        "email": "ella.wood.90@example.com",
+        "phone": "07126870011",
+        "address": {
+          "street": "159 Bridge Street",
+          "city": "Glasgow",
+          "postcode": "G1 1XQ",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT005",
+    "role_id": "ROLE007",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2022-03-02",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 38000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0091",
+    "personal_details": {
+      "first_name": "Isla",
+      "last_name": "Clarke",
+      "date_of_birth": "1966-09-02",
+      "contact": {
+        "email": "isla.clarke.91@example.com",
+        "phone": "07426808977",
+        "address": {
+          "street": "127 Church Road",
+          "city": "Glasgow",
+          "postcode": "G1 1XQ",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT001",
+    "role_id": "ROLE008",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2021-05-22",
+      "employment_type": "Fixed-term",
+      "compensation": {
+        "current_salary": 53000,
+        "currency": "GBP",
+        "salary_reviews": [
+          {
+            "review_id": "REV0091",
+            "previous_salary": 52000,
+            "new_salary": 53000,
+            "reason": "Annual salary review"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0092",
+    "personal_details": {
+      "first_name": "Emily",
+      "last_name": "Evans",
+      "date_of_birth": "1998-04-19",
+      "contact": {
+        "email": "emily.evans.92@example.com",
+        "phone": "07880179899",
+        "address": {
+          "street": "40 Queen Street",
+          "city": "Manchester",
+          "postcode": "M1 1AE",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT002",
+    "role_id": "ROLE008",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2025-07-09",
+      "employment_type": "Fixed-term",
+      "compensation": {
+        "current_salary": 57000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0093",
+    "personal_details": {
+      "first_name": "Florence",
+      "last_name": "Patel",
+      "date_of_birth": "1975-08-05",
+      "contact": {
+        "email": "florence.patel.93@example.com",
+        "phone": "07489431174",
+        "address": {
+          "street": "26 King Street",
+          "city": "Glasgow",
+          "postcode": "G1 1XQ",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT003",
+    "role_id": "ROLE001",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2022-02-26",
+      "employment_type": "Part-time",
+      "compensation": {
+        "current_salary": 34500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0094",
+    "personal_details": {
+      "first_name": "Poppy",
+      "last_name": "Jones",
+      "date_of_birth": "2001-12-21",
+      "contact": {
+        "email": "poppy.jones.94@example.com",
+        "phone": "07588249062",
+        "address": {
+          "street": "24 Victoria Road",
+          "city": "Manchester",
+          "postcode": "M1 1AE",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT004",
+    "role_id": "ROLE007",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2020-02-17",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 38500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0095",
+    "personal_details": {
+      "first_name": "Oliver",
+      "last_name": "Jones",
+      "date_of_birth": "1968-01-30",
+      "contact": {
+        "email": "oliver.jones.95@example.com",
+        "phone": "07991010113",
+        "address": {
+          "street": "142 Victoria Road",
+          "city": "London",
+          "postcode": "E1 6AN",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT005",
+    "role_id": "ROLE006",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2019-05-31",
+      "employment_type": "Fixed-term",
+      "compensation": {
+        "current_salary": 38500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0096",
+    "personal_details": {
+      "first_name": "Sophia",
+      "last_name": "Wright",
+      "date_of_birth": "1971-06-29",
+      "contact": {
+        "email": "sophia.wright.96@example.com",
+        "phone": "07239577989",
+        "address": {
+          "street": "139 Park Lane",
+          "city": "Bristol",
+          "postcode": "BS1 5TR",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT001",
+    "role_id": "ROLE003",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2018-01-12",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 29000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0097",
+    "personal_details": {
+      "first_name": "Oliver",
+      "last_name": "Williams",
+      "date_of_birth": "1967-05-09",
+      "contact": {
+        "email": "oliver.williams.97@example.com",
+        "phone": "07236105947",
+        "address": {
+          "street": "108 Bridge Street",
+          "city": "Manchester",
+          "postcode": "M1 1AE",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT002",
+    "role_id": "ROLE001",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2020-09-01",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 38000,
+        "currency": "GBP",
+        "salary_reviews": [
+          {
+            "review_id": "REV0097",
+            "previous_salary": 36500,
+            "new_salary": 38000,
+            "reason": "Annual salary review"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0098",
+    "personal_details": {
+      "first_name": "Sophie",
+      "last_name": "Thompson",
+      "date_of_birth": "1966-12-12",
+      "contact": {
+        "email": "sophie.thompson.98@example.com",
+        "phone": "07880871219",
+        "address": {
+          "street": "169 Bridge Street",
+          "city": "Leeds",
+          "postcode": "LS1 4AP",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT003",
+    "role_id": "ROLE002",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2023-08-26",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 27500,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0099",
+    "personal_details": {
+      "first_name": "Oliver",
+      "last_name": "Jones",
+      "date_of_birth": "1984-11-24",
+      "contact": {
+        "email": "oliver.jones.99@example.com",
+        "phone": "07178910051",
+        "address": {
+          "street": "21 King Street",
+          "city": "Leeds",
+          "postcode": "LS1 4AP",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT004",
+    "role_id": "ROLE008",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2022-10-13",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 43000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
+    "employee_id": "EMP0100",
+    "personal_details": {
+      "first_name": "Thomas",
+      "last_name": "Jackson",
+      "date_of_birth": "1987-09-05",
+      "contact": {
+        "email": "thomas.jackson.100@example.com",
+        "phone": "07750072069",
+        "address": {
+          "street": "111 Church Road",
+          "city": "Leeds",
+          "postcode": "LS1 4AP",
+          "country": "United Kingdom"
+        }
+      }
+    },
+    "department_id": "DEPT005",
+    "role_id": "ROLE006",
+    "status": "Active",
+    "employment": {
+      "hire_date": "2024-09-12",
+      "employment_type": "Permanent",
+      "compensation": {
+        "current_salary": 34000,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  }
+]

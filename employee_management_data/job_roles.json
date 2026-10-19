@@ -1,0 +1,82 @@
+[
+  {
+    "role_id": "ROLE001",
+    "name": "Software Developer",
+    "description": "Develops and maintains software applications",
+    "salary_range": {
+      "minimum": 28000,
+      "maximum": 45000,
+      "currency": "GBP"
+    }
+  },
+  {
+    "role_id": "ROLE002",
+    "name": "IT Support Analyst",
+    "description": "Supports users and business systems",
+    "salary_range": {
+      "minimum": 24000,
+      "maximum": 35000,
+      "currency": "GBP"
+    }
+  },
+  {
+    "role_id": "ROLE003",
+    "name": "HR Officer",
+    "description": "Supports recruitment and HR administration",
+    "salary_range": {
+      "minimum": 25000,
+      "maximum": 38000,
+      "currency": "GBP"
+    }
+  },
+  {
+    "role_id": "ROLE004",
+    "name": "Accountant",
+    "description": "Maintains financial records and reports",
+    "salary_range": {
+      "minimum": 28000,
+      "maximum": 42000,
+      "currency": "GBP"
+    }
+  },
+  {
+    "role_id": "ROLE005",
+    "name": "Marketing Executive",
+    "description": "Plans and delivers marketing activities",
+    "salary_range": {
+      "minimum": 25000,
+      "maximum": 38000,
+      "currency": "GBP"
+    }
+  },
+  {
+    "role_id": "ROLE006",
+    "name": "Operations Coordinator",
+    "description": "Coordinates operational tasks and schedules",
+    "salary_range": {
+      "minimum": 26000,
+      "maximum": 39000,
+      "currency": "GBP"
+    }
+  },
+  {
+    "role_id": "ROLE007",
+    "name": "Project Manager",
+    "description": "Plans projects and coordinates delivery",
+    "salary_range": {
+      "minimum": 35000,
+      "maximum": 55000,
+      "currency": "GBP"
+    }
+  },
+  {
+    "role_id": "ROLE008",
+    "name": "Department Manager",
+    "description": "Leads a team and oversees department performance",
+    "salary_range": {
+      "minimum": 40000,
+      "maximum": 60000,
+      "currency": "GBP"
+    }
+  }
+]

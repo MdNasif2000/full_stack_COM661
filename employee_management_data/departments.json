@@ -1,0 +1,32 @@
+[
+  {
+    "department_id": "DEPT001",
+    "name": "Information Technology",
+    "description": "Manages company systems and software",
+    "manager_id": "EMP0001"
+  },
+  {
+    "department_id": "DEPT002",
+    "name": "Human Resources",
+    "description": "Manages recruitment and employee records",
+    "manager_id": "EMP0002"
+  },
+  {
+    "department_id": "DEPT003",
+    "name": "Finance",
+    "description": "Manages budgets and financial reporting",
+    "manager_id": "EMP0003"
+  },
+  {
+    "department_id": "DEPT004",
+    "name": "Marketing",
+    "description": "Manages campaigns and communications",
+    "manager_id": "EMP0004"
+  },
+  {
+    "department_id": "DEPT005",
+    "name": "Operations",
+    "description": "Coordinates daily business operations",
+    "manager_id": "EMP0005"
+  }
+]
