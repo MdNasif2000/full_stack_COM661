@@ -1,1 +1,1 @@
-rev_id
+reviews
