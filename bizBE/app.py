@@ -4,6 +4,8 @@ from bson import ObjectId
 import datetime
 import jwt 
 from functools import wraps
+import bcrypt
+
 
 
 
@@ -16,12 +18,18 @@ app.config['SECRET_KEY'] = 'mysecret'
 client = MongoClient("mongodb://localhost:27017")
 db = client.bizDB
 businesses = db.biz
-
+users = db.users
+blacklist_token = db.blacklist_token
 
 def jwt_required(func):
     @wraps(func)
     def jwt_required_wrapper(*args, **kwargs):
-        token = request.args.get('token')
+        #token = request.args.get('token')
+        token = None
+        
+        if 'x-access-token' in request.headers:
+            token = request.headers['x-access-token']
+        
         
         if not token:
             return make_response(jsonify({
@@ -42,20 +50,46 @@ def jwt_required(func):
 
 @app.route("/api/v1.0/login",methods =["GET"])
 def login():
+    #auth = request.authorization
+    
     auth = request.authorization
-    
-    if auth and auth.password == 'password':
-        token = jwt.encode({
-            'user' : auth.username,
-            'exp'  : datetime.datetime.now(datetime.UTC)+ datetime.timedelta(minutes =30)
-        },
-        app.config['SECRET_KEY'],
-        algorithm  = "HS256")
+    if auth:
+        user = users.find_one({
+            'username' : auth.username
+        })
         
-        return make_response(jsonify({"token": token}),200)
-    
+        if user is not None:
+            if bcrypt.checkpw(bytes(auth.password,'utf-8'),user['password']):
+                token = jwt.encode({
+                    'user' : auth.username,
+                    'exp'  : datetime.datetime.now(datetime.UTC)+ datetime.timedelta(minutes =30)
+                },
+                app.config['SECRET_KEY'],
+                algorithm  = "HS256")
+                return make_response(jsonify({"token": token}),200)
+
+            else:
+                return make_response(jsonify({
+                    'Error' : 'Wrong Password'
+                }),401)
+        else:
+            return make_response(jsonify({
+                'Error' : 'Wrong username !'
+            }),401)
+                        
     return make_response(jsonify({"Error":"could not verify"}),401, {'WWW-Authenticate': 'Basic realm = "login Required"'})
 
+@app.route("/api/v1.0/logout",methods =["GET"])
+@jwt_required
+def logout():
+    token = request.headers['x-access-token']
+    blacklist_token.insert_one({
+        'token' : token
+    })
+    
+    return make_response(jsonify({
+        'Message' : 'Logout Successful '
+    }),200)
 
 
 # businesses =[
