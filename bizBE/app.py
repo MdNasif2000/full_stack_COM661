@@ -18,6 +18,26 @@ db = client.bizDB
 businesses = db.biz
 
 
+def jwt_required(func):
+    @wraps(func)
+    def jwt_required_wrapper(*args, **kwargs):
+        token = request.args.get('token')
+        
+        if not token:
+            return make_response(jsonify({
+                'Message' : 'Token is missing'
+            }),401)
+        try:
+            data = jwt.decode(token,
+                              app.config['SECRET_KEY'],
+                              algorithms='HS256')
+
+        except:
+            return make_response(jsonify({
+                'Message' : 'Token is invalid'
+            }),401)
+        return func(*args,**kwargs)
+    return jwt_required_wrapper
 
 
 @app.route("/api/v1.0/login",methods =["GET"])
@@ -62,6 +82,7 @@ def index():
 
 #route to get the json data
 @app.route("/api/v1.0/businesses", methods = ["GET"])
+@jwt_required
 def show_all_businesses():
     page_num , page_size = 1, 10
     if request.args.get('pn'):
