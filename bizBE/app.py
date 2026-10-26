@@ -17,6 +17,9 @@ client = MongoClient("mongodb://localhost:27017")
 db = client.bizDB
 businesses = db.biz
 
+
+
+
 @app.route("/api/v1.0/login",methods =["GET"])
 def login():
     auth = request.authorization
@@ -35,7 +38,6 @@ def login():
 
 
 
-
 # businesses =[
 #     {
 #         "id" : 1,
@@ -51,28 +53,6 @@ def login():
 #             }
 #         ]
 #     },
-#     {
-#         "id" : 2,
-#         "name" : "Black-Sheep",
-#         "town" : "London",
-#         "rating" : 4,
-#         "reviews" :[]
-#     },
-#     {
-#         "id" : 3,
-#         "name" : "Nero",
-#         "town" : "London",
-#         "rating" : 4,
-#         "reviews" :[]
-#     },
-#     {
-#         "id" : 3,
-#         "name" : "Nero",
-#         "town" : "London",
-#         "rating" : 4,
-#         "reviews" :[]
-#     },
-    
 # ]
 
 #Route for welcoming 
