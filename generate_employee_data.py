@@ -2,6 +2,7 @@ import json
 import random
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
+import bcrypt
 
 random.seed(42)
 OUT = Path("employee_management_data")
@@ -111,24 +112,30 @@ users = []
 for n, employee in enumerate(employees, start=1):
     first = employee["personal_details"]["first_name"]
     last = employee["personal_details"]["last_name"]
-    if n == 1:
-        user_role = "admin"
-    elif n in (2, 3):
-        user_role = "hr_staff"
-    elif n in (4, 5):
-        user_role = "manager"
-    else:
-        user_role = "employee"
     created = datetime(2024, 1, 1, tzinfo=timezone.utc) + timedelta(days=random.randint(0, 900))
     updated = min(created + timedelta(days=random.randint(0, 300)),
                   datetime(2026, 10, 19, tzinfo=timezone.utc))
+
+    if n in (1, 2, 3):
+        user_role = "hr_staff"
+    elif n in range(4, 9):
+        user_role = "manager"
+    else:
+        user_role = "employee"
+    
+    password = 'password'
+    
+    # Hash the password
+    hashed_password = bcrypt.hashpw(
+        password.encode("utf-8"),
+        bcrypt.gensalt()
+    )
     users.append({
         "user_id": f"USR{n:04d}",
         "username": f"{first.lower()}.{last.lower()}.{n}",
         "email": f"user{n}@example.com",
-        # Placeholder only. Replace with real hashes when testing authentication.
-        "password_hash": "PLACEHOLDER_NOT_A_REAL_PASSWORD_HASH",
-        "role": user_role, "employee_id": employee["employee_id"],
+        "password": hashed_password.decode("utf-8"),
+        "admin": False, "role": user_role, "employee_id": employee["employee_id"],
         "account_status": random.choices(["active", "inactive"], weights=[95, 5])[0],
         "created_at": created.isoformat(), "updated_at": updated.isoformat()
     })

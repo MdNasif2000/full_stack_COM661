@@ -1,5 +1,35 @@
 [
   {
+    "employee_id": "EMP0101",
+    "personal_details": {
+      "first_name": "System",
+      "last_name": "Administrator",
+      "date_of_birth": null,
+      "contact": {
+        "email": "useradmin@example.com",
+        "phone": null,
+        "address": {
+          "street": null,
+          "city": null,
+          "postcode": null,
+          "country": null
+        }
+      }
+    },
+    "department_id": null,
+    "role_id": null,
+    "status": "Active",
+    "employment": {
+      "hire_date": null,
+      "employment_type": null,
+      "compensation": {
+        "current_salary": null,
+        "currency": "GBP",
+        "salary_reviews": []
+      }
+    }
+  },
+  {
     "employee_id": "EMP0001",
     "personal_details": {
       "first_name": "Noah",

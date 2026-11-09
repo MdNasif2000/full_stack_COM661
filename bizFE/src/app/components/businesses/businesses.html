@@ -1,0 +1,40 @@
+
+<h1>Business works !</h1>
+
+<h2>
+    There are {{business_list.length}} businesses in the directory
+</h2>
+
+<h2>
+    1st business fetched from the list is {{business_list[0].name}}
+</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            @for(business of business_list;
+                    track business.name) {
+                                        <div class="card text-white bg-primary mb-3">
+                                            <div class="card-header">
+                                                {{ business.name }}
+                                            </div>                     
+                                            <div class="card-body">
+                                                This business is based in
+                                                {{ business.town }}
+                                            </div>
+                                            <div class="card-footer">
+                                                Rating: {{ business.rating }}
+                                            </div>
+                                            </div>
+                                        }
+        </div> <!-- col -->
+    </div>    <!-- row --> 
+</div>      <!-- container --> 
+
+
+<div class="container mt-5">
+  <h1 class="text-primary">Hello Bootstrap!</h1>
+  <button class="btn btn-success">
+    Click Me
+  </button>
+</div>
