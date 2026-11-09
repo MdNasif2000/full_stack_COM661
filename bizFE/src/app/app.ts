@@ -1,7 +1,7 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Businesses } from './components/businesses/businesses';
-import jsonData from '../data/data.json';
+// import jsonData from '../data/data.json';
 
 @Component({
   selector: 'app-root',
@@ -12,6 +12,6 @@ import jsonData from '../data/data.json';
 export class App {
   protected title = 'BizFE';
   ngOnInit() {
-    console.log(jsonData);
+    // console.log(jsonData);
   }
 }

@@ -1,13 +1,6 @@
 
 <h1>Business works !</h1>
 
-<h2>
-    There are {{business_list.length}} businesses in the directory
-</h2>
-
-<h2>
-    1st business fetched from the list is {{business_list[0].name}}
-</h2>
 
 <div class="container">
     <div class="row">
@@ -29,12 +22,15 @@
                                         }
         </div> <!-- col -->
     </div>    <!-- row --> 
+    <div class="row">
+        <div class="col-sm-4 text-start">
+            <button class="btn btn-primary" (click) ="previousPage()"> Previous </button>
+        </div>
+        <div class="col-sm-4 text-center align-self-center">
+            showing page{{this.page}} of {{this.businessData.getLastPageNumber()}}
+        </div>
+        <div class="col-sm-4 text-end">
+            <button class="btn btn-primary" (click) ="nextPage()"> Next </button>
+        </div>
+    </div>
 </div>      <!-- container --> 
-
-
-<div class="container mt-5">
-  <h1 class="text-primary">Hello Bootstrap!</h1>
-  <button class="btn btn-success">
-    Click Me
-  </button>
-</div>
